@@ -1,0 +1,59 @@
+.searchResponsive{
+    margin-bottom: 30px;
+}
+.searchResponsive, .basket_table .hiddenAjaxColResponsive{
+    display: block !important;
+}
+.sectionsList {
+    background-color: #fff;
+    padding: 0 15px;
+}
+.notmain .sectionsList{
+    padding: 0;
+}
+.sectionsList .item{
+    height: 250px;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.sectionsList .item a{
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    height: 100%;
+}
+.sectionsList .item .img{
+    transition: all 1s ease-out 0s;
+}
+.sectionsList .item a:hover .img{
+    transform: scale(1.1);
+}
+.sectionsList .col{
+    border-bottom: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+}
+.sectionsList .col:last-child{
+    border-right: none;
+}
+.sectionsList .row:last-child .col{
+    border-bottom: none;
+}
+.sectionsList .row:last-child .col:nth-child(2n){
+    border-right: 1px solid #f1f1f1;
+}
+.sectionsList .img{
+    margin-top: 45px;
+}
+.sectionsList .name{
+    top: 215px;
+    color: #363636;
+    font-size: 12px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    position: absolute;
+    text-transform: uppercase;
+    width: 100%;
+}

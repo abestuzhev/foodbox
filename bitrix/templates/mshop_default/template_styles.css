@@ -1,0 +1,9 @@
+/*header .mega-menu .collapse .container{
+	height: 34px;
+}*/
+input{
+    outline:0;
+}
+.wrapSearch.active .input_text::-webkit-input-placeholder {
+    color:#fff !important;
+}
