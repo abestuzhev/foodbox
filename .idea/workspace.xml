@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="174010a2-b82a-4817-ad17-f4a0ee6bcf46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/mshop_default/include/footer/images/icon_03.jpg" afterPath="$PROJECT_DIR$/bitrix/templates/mshop_default/include/footer/images/icon_03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/mshop_default/include/footer/images/icon_09.jpg" afterPath="$PROJECT_DIR$/bitrix/templates/mshop_default/include/footer/images/icon_09.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/mshop_default/include/footer/images/icon_11.jpg" afterPath="$PROJECT_DIR$/bitrix/templates/mshop_default/include/footer/images/icon_11.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" afterPath="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css" afterPath="$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +28,8 @@
           <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="3569" column="42" selection-start-line="3569" selection-start-column="42" selection-end-line="3569" selection-end-column="42" />
+                <state relative-caret-position="651">
+                  <caret line="3628" column="42" selection-start-line="3628" selection-start-column="42" selection-end-line="3628" selection-end-column="42" />
                   <folding>
                     <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -135,22 +129,24 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="new-style.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="new-style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="295" column="11" selection-start-line="295" selection-start-column="11" selection-end-line="295" selection-end-column="11" />
+                <state relative-caret-position="356">
+                  <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="new-script.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="new-script.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="483">
                   <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-                  <folding />
+                  <folding>
+                    <marker date="1493735731703" expanded="true" signature="642:865" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -225,8 +221,8 @@
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/menu/catalog_multilevel/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css" />
-        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js" />
+        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" />
       </list>
     </option>
   </component>
@@ -440,12 +436,12 @@
       <workItem from="1493535393988" duration="5754000" />
       <workItem from="1493624907694" duration="3390000" />
       <workItem from="1493664533205" duration="7166000" />
-      <workItem from="1493704067614" duration="14825000" />
+      <workItem from="1493704067614" duration="15973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31135000" />
+    <option name="totallyTimeSpent" value="32283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -853,6 +849,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <marker date="1493735731703" expanded="true" signature="642:865" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -863,18 +869,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="3569" column="42" selection-start-line="3569" selection-start-column="42" selection-end-line="3569" selection-end-column="42" />
+        <state relative-caret-position="651">
+          <caret line="3628" column="42" selection-start-line="3628" selection-start-column="42" selection-end-line="3628" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
