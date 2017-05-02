@@ -1,17 +1,26 @@
 $(document).ready(function(){
     //показываем popup "Регистрация пользователя"
-    $("#ddEntry").click(function(event) {
+
+    $(".js-entry").click(function(event) {
         event.preventDefault();
-        $('.c-popup_reg-user').toggleClass('c-popup_show');
-        $('.popup_bg').toggleClass('is-visible');
+        $('.c-popup_entry').toggleClass('c-popup_show');
+        $('.c-popup_bg').toggleClass('is-visible');
         $('body').toggleClass('body-popup');
     });
 
-    /*Ваша заявка отправлена*/
-    $(".popup-sent_close").click(function(event) {
+    $(".js-reg").click(function(event) {
+        console.log("ghbdtn");
         event.preventDefault();
-        $('.popup-sent').toggleClass('popup-show');
-        $('.popup_bg').toggleClass('is-visible');
+        $(".c-popup_entity").toggleClass('c-popup_show');
+        $('.c-popup_bg').toggleClass('is-visible');
+        $('body').toggleClass('body-popup');
+    });
+
+    /*закрыть popup*/
+    $(".c-popup_close").click(function(event) {
+        event.preventDefault();
+        $(this).parent('.c-popup').toggleClass('c-popup_show');
+        $('.c-popup_bg').toggleClass('is-visible');
         $('body').toggleClass('body-popup');
     });
 });
