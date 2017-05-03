@@ -23,11 +23,26 @@ $(document).ready(function(){
         $('.c-popup_bg').toggleClass('is-visible');
         $('body').toggleClass('body-popup');
     });
+
+    $('#entity_file').on('change', function(){
+        $(this).siblings('input[type="file"]').removeClass('is-hidden');
+    });
+
+    $('#entity_callback, #entity_yourself').on('change', function(){
+        $('#entity_file').siblings('input[type="file"]').addClass('is-hidden');
+    });
+
+    $(".phone-mask").mask("+7(999)999-99-99");
+    $(".js-profile_date").mask("99.99.9999");
+
+    $(".c-popup_entity form input[type='checkbox']").on('change', function(){
+        if($('#entity_confirmation-stock').prop('checked') && $('#entity_confirmation-data').prop('checked') && $('#entity_confirmation-pact').prop('checked')){
+            console.log('hello');
+            $(".c-popup_entity .c-form_button").removeAttr('disabled');
+        }else {
+            $(".c-popup_entity .c-form_button").attr('disabled', 'disabled');
+        }
+    });
 });
 
 
-$(".c-popup_entity form").on('change', function(){
-   if($('#entity_confirmation-stock').is('checked') || $('#entity_confirmation-data').is('checked') || $('#entity_confirmation-pact').is('checked')){
-     $(".c-popup_entity .c-popup_button").removeAttr('checked');
-   }
-});

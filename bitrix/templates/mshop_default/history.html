@@ -508,110 +508,138 @@
 			<div class="row">
 				<div class="col col-md-9 col-md-push-3 maincontent">
 					<div class="js-ttl">
-						<div class="page-header"><h1>Профиль</h1></div>
+						<div class="page-header"><h1>История заказов</h1></div>
 					</div>
 					<div class="js-brcrtitle"><ul id="breadcrumbs" class="list-unstyled clearfix" itemscope="" itemtype="http://schema.org/BreadcrumbList"><li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/" title="Главная"><span itemprop="name">Главная</span></a></li><li class="arrow"></li><li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><span itemprop="name">Персональный раздел</span></li></ul></div>
-					<div class="profile">
-						<div class="row">
-							<div class="col col-sm-7 col-md-7">
-								<div class="c-card-profile">
-									<div class="c-card-profile_title">Личная информация</div>
-									<form action="#" class="c-form">
-										<div class="c-form_item">
-											<label for="profile_name">Ф.И.О:</label>
-											<input type="text" id="profile_name" placeholder="Иванов Иван Иванович">
-										</div>
-										<div class="row">
-											<div class="col col-md-8">
-												<label for="possible-answer-4">Ваш пол:</label>
-												<div class="c-form_item c-form_item--inline">
-													<input type="radio" name="profile_gender" id="profile_gender-man" checked>
-													<label for="profile_gender-man">Мужской</label>
-												</div>
-												<div class="c-form_item c-form_item--inline">
-													<input type="radio" name="profile_gender" id="profile_gender-woman">
-													<label for="profile_gender-woman">Женский</label>
-												</div>
-											</div>
-											<div class="col col-md-4">
-												<div class="c-form_item">
-													<label for="profile_date">Дата рождения:</label>
-													<input type="text" id="profile_date" class="js-profile_date" placeholder="__.__._____">
-												</div>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-							<div class="col col-sm-5 col-md-5">
-								<div class="c-card-profile">
-									<div class="c-card-profile_title">Аватарка</div>
-									<label>Будет видна в отзывах к товарам</label>
-									<div class="avatar-upload">
-										<img src="images/avatar-default.jpg">
-										<div class="avatar-upload_title">загрузить</div>
+					<div class="row orders_btns">
+						<div class="col-md-12">
+							<a href="" class="btn btn-primary--grey">История заказов</a>
+							<a href="" class="btn btn-primary">Активные заказы</a>
+						</div>
+					</div>
+					<div class="orders_title">Информация о заказах:</div>
+					<div class="history-orders"></div>
+					<div class="active-orders">
+						<div class="c-card-order">
+							<div class="c-card-order_header">
+								<div class="row">
+									<div class="col col-xs-6">
+										<div class="c-card-order_title">Заказ от 25 апреля <a href="#" class="c-card-order_number">№ 4687897</a></div>
+									</div>
+									<div class="col col-xs-6 btn-right">
+										<a href="#" class="c-card-order_link c-card-order_link--icon color-orange">Повторить заказ</a>
+										<a href="#" class="c-card-order_link">Отменить</a>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="row">
-							<div class="col col-sm-7 col-md-7">
-								<div class="c-card-profile">
-									<div class="c-card-profile_title">Контактная информация</div>
-									<form action="#" class="c-form">
-										<div class="c-form_item">
-											<label for="profile_phone">Телефон:</label>
-											<div class="input-group">
-												<input type="text" id="profile_phone" placeholder="Тел: +7(___)___-__-__" class="phone-mask">
-												<div class="input-group-btn"><button class="c-form_button">Получить код</button></div>
-											</div>
+							<div class="c-card-order_body">
+								<div class="c-card-order_address">Адрес доставки: 3-я Владимирская улица д. 22/22</div>
+								<div class="row">
+									<div class="col-md-5 ">
+										<div class="c-card-order_item">
+											<img src="images/icon-star.png" alt="" class="c-card-order_icon">
+											<div class="c-card-order_item-title color-orange">Новый</div>
+											<div class="c-card-order_item-subtitle">Состояние заказа</div>
 										</div>
-										<div class="c-form_item">
-											<label for="profile_code">Полученный код активации: <span class="c-form_note-example">Пример: 65609</span>
-												<a href="#" class="c-form_link">Не пришло СМС-сообщение?</a></label>
-											<div class="input-group">
-												<input type="password" id="profile_code" placeholder="Введите код">
-												<div class="input-group-btn"><button class="c-form_button bg-grey">Подтвердить</button></div>
-											</div>
+									</div>
+									<div class="col-md-3">
+										<div class="c-card-order_item">
+											<img src="images/icon-calendare.png" alt="" class="c-card-order_icon">
+											<div class="c-card-order_item-title">25.04.17</div>
+											<div class="c-card-order_item-subtitle">Дата заказа</div>
 										</div>
-										<div class="c-form_item">
-											<label for="profile_newPass">Дополнительный номер:</label>
-											<div class="l-form_button"><button class="c-form_button">Добавить</button></div>
+									</div>
+									<div class="col-md-4">
+										<div class="c-card-order_item">
+											<img src="images/icon-purse.png" alt="" class="c-card-order_icon">
+											<div class="c-card-order_item-title">1 952,00 <span>₽</span></div>
+											<div class="c-card-order_item-subtitle"><span class="color-orange">Не оплачен</span>(наличные курьеру)</div>
 										</div>
-										<div class="c-form_item">
-											<label for="profile_email">Электронная почта:</label>
-											<div class="input-group">
-												<input type="password" id="profile_email" placeholder="yourname@example.com">
-												<div class="input-group-btn"><button class="c-form_button">Подтвердить</button></div>
-											</div>
-										</div>
-									</form>
+									</div>
 								</div>
 							</div>
-							<div class="col col-sm-5 col-md-5">
-								<div class="c-card-profile">
-									<div class="c-card-profile_title">Изменение пароля</div>
-									<form action="#" class="c-form">
-										<div class="c-form_item">
-											<label for="profile_oldPass">Старый пароль</label>
-											<input type="password" id="profile_oldPass">
-										</div>
-										<div class="c-form_item">
-											<label for="profile_newPass">Новый пароль:</label>
-											<input type="password" id="profile_newPass">
-										</div>
-										<div class="c-form_item">
-											<label for="profile_newPass-confirmation">Новый пароль еще раз:</label>
-											<input type="password" id="profile_newPass-confirmation">
-											<div class="c-popup_note">Придумайте сложный пароль, который нельзя подобрать: от 6 до 20 символов -
-												цифры, английские буквы и спецсимволы.</div>
-										</div>
-										<div class="l-form_button btn-right"><button class="c-form_button">Изменить</button></div>
-									</form>
+						</div><!--END c-card-order-->
+
+						<div class="c-card-order">
+							<div class="c-card-order_header">
+								<div class="row">
+									<div class="col-xs-6">
+										<div class="c-card-order_title">Заказ от 25 апреля <a href="#" class="c-card-order_number">№ 4687897</a></div>
+									</div>
+									<div class="col col-xs-6 btn-right">
+									<a href="#" class="c-card-order_link c-card-order_link--icon color-orange">Повторить заказ</a>
+									<a href="#" class="c-card-order_link">Отменить</a>
+								</div>
 								</div>
 							</div>
-						</div>
-					</div><!--END profile-->
+							<div class="c-card-order_body">
+								<div class="c-card-order_address">Адрес доставки: 3-я Владимирская улица д. 22/22</div>
+								<div class="row">
+									<div class="col-md-5">
+										<div class="c-card-order_item">
+											<img src="images/icon-star.png" alt="" class="c-card-order_icon">
+											<div class="c-card-order_item-title color-orange">Находится в обработке</div>
+											<div class="c-card-order_item-subtitle">Состояние заказа</div>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="c-card-order_item">
+											<img src="images/icon-calendare.png" alt="" class="c-card-order_icon">
+											<div class="c-card-order_item-title">25.04.17</div>
+											<div class="c-card-order_item-subtitle">Дата заказа</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="c-card-order_item">
+											<img src="images/icon-purse.png" alt="" class="c-card-order_icon">
+											<div class="c-card-order_item-title">1 952,00 <span>₽</span></div>
+											<div class="c-card-order_item-subtitle"><span class="color-orange">Не оплачен</span>(наличные курьеру)</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!--END c-card-order-->
+
+						<div class="c-card-order">
+							<div class="c-card-order_header">
+								<div class="row">
+									<div class="col-xs-6">
+										<div class="c-card-order_title">Заказ от 25 апреля <a href="#" class="c-card-order_number">№ 4687897</a></div>
+									</div>
+									<div class="col col-xs-6 btn-right">
+										<a href="#" class="c-card-order_link c-card-order_link--icon color-orange">Повторить заказ</a>
+										<a href="#" class="c-card-order_link">Отменить</a>
+									</div>
+								</div>
+							</div>
+							<div class="c-card-order_body">
+								<div class="c-card-order_address">Адрес доставки: 3-я Владимирская улица д. 22/22</div>
+								<div class="row">
+									<div class="col-md-5">
+										<div class="c-card-order_item">
+											<img src="images/icon-star.png" alt="" class="c-card-order_icon">
+											<div class="c-card-order_item-title color-orange">Передан для доставки</div>
+											<div class="c-card-order_item-subtitle">Состояние заказа</div>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="c-card-order_item">
+											<img src="images/icon-calendare.png" alt="" class="c-card-order_icon">
+											<div class="c-card-order_item-title">25.04.17</div>
+											<div class="c-card-order_item-subtitle">Дата заказа</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="c-card-order_item">
+											<img src="images/icon-purse.png" alt="" class="c-card-order_icon">
+											<div class="c-card-order_item-title">1 952,00 <span>₽</span></div>
+											<div class="c-card-order_item-subtitle"><span class="color-orange">Не оплачен</span>(наличные курьеру)</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!--END c-card-order-->
+					</div>
 
 				</div>
 				<div id="sidebar" class="col col-md-3 col-md-pull-9">
@@ -630,12 +658,12 @@
 									</div>
 								</li>
 								<li><a href="/personal/" class="root-item">Общая информация</a></li>
-								<li><a href="/personal/profile/" class="root-item-selected">Персональная информация</a></li>
+								<li><a href="/personal/profile/" class="root-item">Персональная информация</a></li>
 								<li><a href="/personal/viewed/" class="root-item">Просмотренные товары</a></li>
 								<li><a href="/personal/subscribe/" class="root-item">Подписка</a></li>
 								<li><a href="/personal/cart/" class="root-item">Корзина</a></li>
 								<li><a href="/personal/delivery/" class="root-item">Профили доставки</a></li>
-								<li><a href="/personal/order/" class="root-item">История заказов</a></li>
+								<li><a href="/personal/order/" class="root-item-selected">История заказов</a></li>
 							</ul>
 
 							<ul class="vertical-multilevel-menu">

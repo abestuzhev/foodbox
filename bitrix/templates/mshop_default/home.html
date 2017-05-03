@@ -76,7 +76,10 @@
 	<!-- header.color - стиль с заливкой -->
 	<div class="mobileAuth">
 		<div class="authinhead dropdown" id="authinhead">
-			<!--'start_frame_cache_authinhead'--><a id="ddPersonalMenu" href="/personal/">Личный кабинет</a>
+			<!--'start_frame_cache_authinhead'-->
+			<!--<a id="ddPersonalMenu" href="/personal/">Личный кабинет</a>-->
+			<a id="ddPersonalMenu" href="#" class="js-reg">Регистрация</a>
+			<a id="ddEntry" href="#" class="js-entry">Вход</a>
 			<!--'end_frame_cache_authinhead'--></div>
 	</div>
 	<header class="style4 color">
@@ -1692,15 +1695,15 @@
 		<form action="#" class="c-form">
 			<div class="c-form_item">
 				<label for="reg-user_name">Ф.И.О.:<span>*</span></label>
-				<input type="text" id="reg-user_name" placeholder="Иванов Иван Иванович">
+				<input type="text" id="reg-user_name" placeholder="Иванов Иван Иванович" autofocus required>
 			</div>
 			<div class="c-form_item">
-				<label for="reg-user_email">Электронная почта:</label>
-				<input type="text" id="reg-user_email" placeholder="yourname@example.com">
+				<label for="reg-user_email">Электронная почта:<span>*</span></label>
+				<input type="text" id="reg-user_email" placeholder="yourname@example.com" autofocus required>
 			</div>
 			<div class="c-form_item">
 				<label for="reg-user_phone">Мобильнывй телефон для звонка курьера:</label>
-				<input type="text" id="reg-user_phone" placeholder="Тел: +7(___)___-__-__" class="phone-mask">
+				<input type="text" id="reg-user_phone" placeholder="Тел: +7(___)___-__-__" class="phone-mask" autofocus required>
 			</div>
 			<div class="c-form_item">
 				<input type="checkbox" id="confirmation-stock" checked>
@@ -1718,7 +1721,7 @@
 				<img src="images/recaptcha.jpg" alt="">
 			</div>
 			<div class="c-popup_row">
-				<div class="c-popup_col-5"><button class="c-popup_button">Регистрация</button></div>
+				<div class="c-popup_col-5"><button class="c-form_button">Регистрация</button></div>
 				<div class="c-popup_col-7"><div class="c-popup_reference"><span>*</span> - поля обязательные для заполнения</div></div>
 			</div>
 		</form>
@@ -1745,23 +1748,23 @@
 			<div class="c-popup_body-title">Регистрация покупателя</div>
 			<div class="c-form_item">
 				<label for="entity_name">Ф.И.О.:<span>*</span></label>
-				<input type="text" id="entity_name" placeholder="Иванов Иван Иванович">
+				<input type="text" id="entity_name" placeholder="Иванов Иван Иванович" autofocus required>
 			</div>
 			<div class="c-form_item">
 				<label for="entity_company">Название компании (как в уставных документах):<span>*</span></label>
-				<input type="text" id="entity_company" placeholder="ООО Название компании">
+				<input type="text" id="entity_company" placeholder="ООО Название компании" autofocus required>
 			</div>
 			<div class="c-popup_row">
 				<div class="c-popup_col c-popup_col-6">
 					<div class="c-form_item">
 						<label for="entity_email">Эл. почта:<span>*</span></label>
-						<input type="text" id="entity_email" placeholder="yourname@example.com">
+						<input type="text" id="entity_email" autofocus required>
 					</div>
 				</div>
 				<div class="c-popup_col c-popup_col-6">
 					<div class="c-form_item">
 						<label for="entity_phone">Телефон:<span>*</span></label>
-						<input type="text" id="entity_phone" placeholder="Тел: +7(___)___-__-__" class="phone-mask">
+						<input type="text" id="entity_phone" placeholder="Тел: +7(___)___-__-__" class="phone-mask" autofocus required>
 					</div>
 				</div>
 			</div>
@@ -1790,7 +1793,7 @@
 				<div class="c-form_item">
 					<input type="radio" name="entity-info" id="entity_file" checked>
 					<label for="entity_file">Отправить реквизиты в файле (doc, pdf)</label>
-					<input type="file" name="file" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+					<input class="is-hidden" type="file" name="file" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
 				</div>
 				<div class="c-form_item">
 					<input type="radio" name="entity-info" id="entity_yourself" checked>
@@ -1799,7 +1802,7 @@
 				<div class="c-form_item">
 					<img src="images/recaptcha.jpg" alt="">
 				</div>
-				<button class="c-popup_button" disabled>Загрузить и зарегистрироваться</button>
+				<button class="c-form_button" disabled>Загрузить и зарегистрироваться</button>
 			</div>
 		</div>
 	</form><!--end form-->
@@ -1834,7 +1837,7 @@
 				<label for="possible-answer-5">Другое</label>
 				<input type="text" id="answer-text" placeholder="Ваш вариант">
 			</div>
-			<button class="c-popup_button">Голосовать</button>
+			<button class="c-form_button">Голосовать</button>
 		</div><!--end c-popup_body-->
 	</form><!--end form-->
 </div><!--end popup-->
@@ -1849,15 +1852,15 @@
 					<div class="c-popup_body-title">Вход для зарегистрированных пользователей</div>
 					<div class="c-form_item">
 						<label for="entry_login">Телефон, email или логин</label>
-						<input type="text" id="entry_login">
+						<input type="text" id="entry_login" autofocus required>
 						<div class="c-popup_note">Например, телефон: +7(900)1234567</div>
 					</div>
 					<div class="c-form_item">
 						<label for="entry_password">Пароль:</label>
-						<input type="text" id="entry_password">
+						<input type="text" id="entry_password" autofocus required>
 					</div>
 					<div class="c-popup_row">
-						<div class="c-popup_col-4"><button class="c-popup_button">Войти</button></div>
+						<div class="c-popup_col-4"><button class="c-form_button">Войти</button></div>
 						<div class="c-popup_col-8"><a href="#" class="c-popup_link">Получить пароль</a></div>
 					</div>
 				</form><!--end form-->
@@ -1868,13 +1871,13 @@
 				<div class="c-popup_body-title">Я новый покупатель</div>
 				<div class="c-form">
 					<div class="c-form_item">
-						<a href="#" class="c-popup_btn-reg">
+						<a href="#" class="c-popup_btn-reg bg-grey">
 							<div class="c-popup_btn-reg-title">Зарегистрироваться</div>
 							<div class="c-popup_btn-reg-subtitle">и получать бонусы</div>
 						</a>
 					</div>
 					<div class="c-form_item">
-						<a href="#" class="c-popup_btn-reg c-popup_btn-reg--orange">
+						<a href="#" class="c-popup_btn-reg bg-orange">
 							<div class="c-popup_btn-reg-title">Купить без регистрации</div>
 							<div class="c-popup_btn-reg-subtitle">быстрый заказ</div>
 						</a>
