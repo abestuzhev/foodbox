@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="174010a2-b82a-4817-ad17-f4a0ee6bcf46" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/minified.css" afterPath="$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/minified.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" afterPath="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -28,17 +30,10 @@
           <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="504">
-                  <caret line="40" column="74" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+                <state relative-caret-position="494">
+                  <caret line="576" column="58" selection-start-line="576" selection-start-column="58" selection-end-line="576" selection-end-column="58" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#article#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,22 +55,30 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="minified.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="minified.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/minified.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="782" column="0" selection-start-line="782" selection-start-column="0" selection-end-line="782" selection-end-column="0" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="377">
+                  <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
                   <folding>
-                    <element signature="e#129438#129627#1" expanded="true" />
-                    <element signature="e#130658#130847#1" expanded="true" />
-                    <element signature="e#153034#153228#2" expanded="true" />
-                    <element signature="e#153392#153569#2" expanded="true" />
-                    <element signature="e#153700#153891#2" expanded="true" />
-                    <element signature="e#153982#154176#2" expanded="true" />
-                    <element signature="e#154340#154517#2" expanded="true" />
-                    <element signature="e#154648#154839#2" expanded="true" />
-                    <element signature="e#162800#163902#2" expanded="true" />
-                    <element signature="e#164056#165155#2" expanded="true" />
+                    <element signature="e#9172#9366#2" expanded="true" />
+                    <element signature="e#9530#9707#2" expanded="true" />
+                    <element signature="e#9838#10029#2" expanded="true" />
+                    <element signature="e#10120#10314#2" expanded="true" />
+                    <element signature="e#10478#10655#2" expanded="true" />
+                    <element signature="e#10786#10977#2" expanded="true" />
+                    <element signature="e#18938#20040#2" expanded="true" />
+                    <element signature="e#20194#21293#2" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -161,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/js/fancybox/jquery.fancybox.pack.js" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/js/owl.carousel.min.js" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/js/bootstrap/bootstrap.js" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/js/jquery-1.11.2.min.js" />
@@ -209,9 +211,10 @@
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/profile.html" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/reg-user.html" />
-        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/minified.js" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/minified.css" />
+        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" />
+        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/main.css" />
       </list>
     </option>
   </component>
@@ -402,11 +405,12 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\foodbox\bitrix\templates\mshop_default\components\bitrix\slider" />
       <recent name="D:\code\foodbox\bitrix\templates\mshop_default" />
       <recent name="F:\code\foodbox\bitrix\templates\mshop_default" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\foodbox\bitrix\templates\mshop_default" />
       <recent name="F:\code\foodbox\bitrix\templates\mshop_default" />
     </key>
@@ -472,18 +476,18 @@
       <workItem from="1493744751045" duration="9141000" />
       <workItem from="1493789843419" duration="10375000" />
       <workItem from="1493802321953" duration="14454000" />
-      <workItem from="1494569652552" duration="1754000" />
+      <workItem from="1494569652552" duration="7024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70377000" />
+    <option name="totallyTimeSpent" value="75647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="1" />
-    <editor active="false" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18522602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.017089305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -515,16 +519,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/js/jquery.maskedinput.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4112" selection-start-line="6" selection-start-column="4112" selection-end-line="6" selection-end-column="4112" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/js/fancybox/jquery.fancybox.pack.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -869,6 +863,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="966" column="15" selection-start-line="966" selection-start-column="15" selection-end-line="966" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -880,19 +875,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/minified.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="40" column="74" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+        <state relative-caret-position="494">
+          <caret line="576" column="58" selection-start-line="576" selection-start-column="58" selection-end-line="576" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#article#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -923,21 +919,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/minified.css">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="782" column="0" selection-start-line="782" selection-start-column="0" selection-end-line="782" selection-end-column="0" />
+        <state relative-caret-position="377">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
-            <element signature="e#129438#129627#1" expanded="true" />
-            <element signature="e#130658#130847#1" expanded="true" />
-            <element signature="e#153034#153228#2" expanded="true" />
-            <element signature="e#153392#153569#2" expanded="true" />
-            <element signature="e#153700#153891#2" expanded="true" />
-            <element signature="e#153982#154176#2" expanded="true" />
-            <element signature="e#154340#154517#2" expanded="true" />
-            <element signature="e#154648#154839#2" expanded="true" />
-            <element signature="e#162800#163902#2" expanded="true" />
-            <element signature="e#164056#165155#2" expanded="true" />
+            <element signature="e#9172#9366#2" expanded="true" />
+            <element signature="e#9530#9707#2" expanded="true" />
+            <element signature="e#9838#10029#2" expanded="true" />
+            <element signature="e#10120#10314#2" expanded="true" />
+            <element signature="e#10478#10655#2" expanded="true" />
+            <element signature="e#10786#10977#2" expanded="true" />
+            <element signature="e#18938#20040#2" expanded="true" />
+            <element signature="e#20194#21293#2" expanded="true" />
           </folding>
         </state>
       </provider>
