@@ -33,12 +33,13 @@
 	<!--slider style-->
 	<!--<link href="components/bitrix/slider/minified.css" type="text/css" data-template-style="true" rel="stylesheet"/>-->
 	<link href="components/bitrix/slider/main.css" type="text/css" data-template-style="true" rel="stylesheet"/>
+	<link rel="stylesheet" href="components/bitrix/slider/swiper.min.css">
 	<!--END slider style-->
 
 	<script type="text/javascript" src="../../js/main/core/core.js"></script>
 	<script type="text/javascript" src="../../js/main/core/core_db.js"></script>
 	<script type="text/javascript" src="../../js/main/core/core_ajax.js"></script>
-	<script type="text/javascript" src="bitrix/js/main/json/json2.min.js"></script>
+	<!--<script type="text/javascript" src="bitrix/js/main/json/json2.min.js"></script>-->
 	<script type="text/javascript" src="../../js/main/core/core_ls.js"></script>
 	<script type="text/javascript" src="../../js/main/core/core_fx.js"></script>
 	<script type="text/javascript" src="../../js/main/core/core_frame_cache.js"></script>
@@ -51,9 +52,6 @@
 	<script type="text/javascript" src="js/new-script.js"></script>
 	<!--end new-script-->
 
-	<!--slider script-->
-	<script type="text/javascript" src="components/bitrix/slider/minified.js"></script>
-	<!--END slider script-->
 
 
 	<link href="/favicon.png" rel="shortcut icon" type="image/x-png"/>
@@ -70,11 +68,19 @@
 	<script type="text/javascript" src="js/offers.js"></script>
 	<script type="text/javascript" src="js/bxslider/jquery.bxslider.js"></script>
 	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-	<script type="text/javascript" src="bitrix/templates/mshop_default/components/bitrix/sale.basket.basket.line/monopoly/script.js"></script>
-	<script type="text/javascript" src="bitrix/components/bitrix/search.title/script.js"></script>
-	<script type="text/javascript" src="bitrix/templates/mshop_default/components/bitrix/menu/catalog_multilevel/script.js"></script>
-	<script type="text/javascript" src="bitrix/templates/mshop_default/components/bitrix/search.title/foodbox_catalog/script.js"></script>
-	<script type="text/javascript" src="bitrix/templates/mshop_default/components/bitrix/catalog.top/main/section/script.js"></script>
+	<!--<script type="text/javascript" src="bitrix/templates/mshop_default/components/bitrix/sale.basket.basket.line/monopoly/script.js"></script>-->
+	<!--<script type="text/javascript" src="bitrix/components/bitrix/search.title/script.js"></script>-->
+	<!--<script type="text/javascript" src="bitrix/templates/mshop_default/components/bitrix/menu/catalog_multilevel/script.js"></script>-->
+	<!--<script type="text/javascript" src="bitrix/templates/mshop_default/components/bitrix/search.title/foodbox_catalog/script.js"></script>-->
+	<!--<script type="text/javascript" src="bitrix/templates/mshop_default/components/bitrix/catalog.top/main/section/script.js"></script>-->
+
+
+	<!--slider script-->
+	<!--<script type="text/javascript" src="components/bitrix/slider/minified.js"></script>-->
+	<script src="components/bitrix/slider/swiper.min.js"></script>
+	<script src="components/bitrix/slider/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="components/bitrix/slider/main.js"></script>
+	<!--END slider script-->
 
 	<title itemprop="name"> Интернет-магазин FoodBox | Продукты питания, овощи, фрукты | Доставка на дом и офис </title>
 </head>
@@ -535,32 +541,32 @@
 				<section data-bcid="mp_block_promo" data-bcp="2" class="whiteBlock noBorder noPadding mainPromo  bc bcBig">
 					<div class="promosSwitcher" id="promosSwitcher">
 						<div class="promosList size_7">
-							<a href="/promotions/vyberi-svoi-frukt-457" data-index="0" class=""><span>ВЫБЕРИ СВОЙ МАНГО! </span></a>
-							<a href="/promotions/zakuski-k-pivu-263" data-index="1" class=""><span>РЫБКА К ПИВУ!</span></a>
-							<a href="/promotions/moreprodukty-gril-167" data-index="2" class="active"><span>СТЕЙК ЗУБАТКИ. БУДЕТ ВКУСНО!</span></a>
-							<a href="/promotions/vse-na-piknik-262" data-index="3" class=""><span>ХОЛОДНО? С НАМИ БУДЕТ ЖАРКО!</span></a>
-							<a href="/promotions/451" data-index="4" class=""><span>МРАМОРНОЕ МЯСО </span></a>
-							<a href="/promotions/87" data-index="5" class=""><span>ЖИВЫЕ ВОНГОЛЕ <br>МИДИИ, УСТРИЦЫ</span></a>
-							<a href="/promotions/naturalnye-sladosti-247" data-index="6" class=""><span>ПОБАЛУЙТЕ СЕБЯ СЛАДЕНЬКИМ</span></a>
+							<a href="/promotions/vyberi-svoi-frukt-457" data-index="0" class=""><span>Экзотические фрукты и овощи</span></a>
+							<a href="/promotions/zakuski-k-pivu-263" data-index="1" class=""><span>Лосось охлажденный</span></a>
+							<a href="/promotions/moreprodukty-gril-167" data-index="2" class=""><span>Огурцы короткоплодные</span></a>
+							<a href="/promotions/vse-na-piknik-262" data-index="3" class=""><span>Дорадо охлажденное</span></a>
+							<a href="/promotions/451" data-index="4" class=""><span>Хлеб Бородинский</span></a>
+							<a href="/promotions/87" data-index="5" class=""><span>Самые вкусные креветки здесь</span></a>
+							<a href="/promotions/naturalnye-sladosti-247" data-index="6" class=""><span>Филе окуня с/м </span></a>
 						</div>
 						<div class="swiper-container swiper-container-horizontal swiper-container-fade">
-							<div class="swiper-wrapper" style="transition-duration: 300ms;">
-								<div class="swiper-slide">
-									<article class="bigPromo active">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide active">
+									<article class="bigPromo">
 									<a href="/promotions/vyberi-svoi-frukt-457"><img alt="ВЫБЕРИ СВОЙ МАНГО! " src="https://storage.delikateska.ru/c/6/imgonline-com-ua-convertrktv7adkfkc7_d1.png"></a>
 									</article>
 								</div>
-								<div class="swiper-slide swiper-slide-prev">
+								<div class="swiper-slide">
 									<article class="bigPromo">
 										<a href="/promotions/zakuski-k-pivu-263"><img alt="РЫБКА К ПИВУ!" src="https://storage.delikateska.ru/2/3/imgonline-com-ua-resize-grm8v2e9qa.png"></a>
 									</article>
 								</div>
-								<div class="swiper-slide swiper-slide-active">
+								<div class="swiper-slide">
 									<article class="bigPromo">
 										<a href="/promotions/moreprodukty-gril-167"><img alt="СТЕЙК ЗУБАТКИ. БУДЕТ ВКУСНО!" src="https://storage.delikateska.ru/f/0/imgonline-com-ua-resize-kpypmqayfmuy.png"></a>
 									</article>
 								</div>
-								<div class="swiper-slide swiper-slide-next">
+								<div class="swiper-slide">
 									<article class="bigPromo">
 										<a href="/promotions/vse-na-piknik-262"><img alt="ХОЛОДНО? С НАМИ БУДЕТ ЖАРКО!" src="https://storage.delikateska.ru/4/7/banner-sheya.png"></a>
 									</article>
@@ -601,195 +607,224 @@
 							</div>
 						</div>
 					</div>
+
 					<section id="promoSlider" class="sidePromotion">
 						<div data-bcid="mp_block_day" data-bcp="2" class="bc bcSmall">
-							<div class="h2">Товар дня</div>
+							<div class="sidePromotion_title">Товар дня</div>
 							<div class="sidePromosSliderWrap">
 								<div id="day">
 									<div class="swiper-container swiper-container--good-of-day swiper-container-horizontal">
-										<div class="swiper-wrapper" style="transform: translate3d(-368px, 0px, 0px); transition-duration: 0ms;"><article data-product-id="1641" data-product-title="Колбаса Фуэт Экстра 150г" class="product prod1641  swiper-slide-duplicate" data-swiper-slide-index="5" style="width: 184px;">
-											<div class="js-list-prod_fav-item prod_fav">
-												<span class="align_helper"></span>
-												<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="1641" data-image="https://storage.delikateska.ru/cache/7/c/ekstra-150.jpg/w480.jpg"></span>
-											</div>
-											<span class="labels">
-												<a href="/promotions/tovar-dnya-129">
-													<span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span>
-												</a>
-											</span>
-											<a href="/product/1641" class="product-list-item-link">
-												<figure><span class="product_img"><img alt="Колбаса Фуэт Экстра 150г" src="https://storage.delikateska.ru/cache/7/c/ekstra-150.jpg/140.jpg"></span>
-													<figcaption><span class="productHeader">Колбаса Фуэт Экстра 150г</span>
-														<span class="productDescription productDescription--hide">Куплено <span>1555</span> раз<small>артикул 001641</small></span>
-													<noindex>
-														<span class="productDescription">сыровяленая, по испанской технологии, Casademont </span>
-													</noindex>
-													</figcaption>
-												</figure>
-												<span class="price"><span class="priceWrap"> <span class="oldPrice">349<i></i></span>  299 руб </span><small>(0.15 кг)</small></span>
-											</a>
-											<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">41</span> отзыв</small>
-										</article>
-										<article data-product-id="2513" data-product-title="Томатный соус Мичуринский 325г" class="product prod2513 swiper-slide-prev" data-swiper-slide-index="0" style="width: 184px;">
-											<div class="js-list-prod_fav-item prod_fav">
-												<span class="align_helper"></span>
-												<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="2513" data-image="https://storage.delikateska.ru/cache/c/b/michurinskii.jpg/w480.jpg">
+										<div class="swiper-wrapper">
+
+											<article data-product-id="1641" data-product-title="Колбаса Фуэт Экстра 150г" class="product prod1641" data-swiper-slide-index="5">
+												<div class="js-list-prod_fav-item prod_fav">
+													<span class="align_helper"></span>
+													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="1641" data-image="https://storage.delikateska.ru/cache/7/c/ekstra-150.jpg/w480.jpg"></span>
+												</div>
+												<span class="labels">
+													<a href="/promotions/tovar-dnya-129">
+														<span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span>
+													</a>
 												</span>
-											</div>
-											<span class="labels">
-												<a href="/catalog/hit"><span class="badge hit">хит продаж!</span></a>
-												<a href="/promotions/tovar-dnya-129"><span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
-											</span>
-											<a href="/product/2513" class="product-list-item-link">
-												<figure><span class="product_img"><img alt="Томатный соус Мичуринский 325г" src="https://storage.delikateska.ru/cache/c/b/michurinskii.jpg/140.jpg"></span>
-													<figcaption>
-														<span class="productHeader">Томатный соус Мичуринский 325г</span>
-														<span class="productDescription productDescription--hide">Куплено <span>15817</span> раз<small>артикул 002513</small></span>
-														<noindex>
-														<span class="productDescription">100% натуральный продукт, кетчуп классический</span>
-														</noindex>
-													</figcaption>
-												</figure>
-												<span class="price"><span class="priceWrap"> <span class="oldPrice">73<i></i></span>  59 руб </span><small>(0.325 кг)</small></span>
-											</a>
-											<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">85</span> отзывов</small>
-										</article>
-										<article data-product-id="2885" data-product-title="Масло оливковое для жарки рафинированное 1л" class="product prod2885 swiper-slide-visible swiper-slide-active" data-swiper-slide-index="1" style="width: 184px;">
-											<div class="js-list-prod_fav-item prod_fav">
-												<span class="align_helper"></span>
-												<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="2885" data-image="https://storage.delikateska.ru/cache/7/4/sansa.jpg/w480.jpg"></span>
-											</div>
-											<span class="labels">
-												<a href="/promotions/tovar-dnya-129"><span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
-											</span>
-											<a href="/product/2885" class="product-list-item-link">
-												<figure>
-													<span class="product_img"><img alt="Масло оливковое для жарки рафинированное 1л" src="https://storage.delikateska.ru/cache/7/4/sansa.jpg/140.jpg"></span>
-													<figcaption>
-														<span class="productHeader">Масло оливковое для жарки рафинированное 1л</span>
-														<span class="productDescription productDescription--hide">Куплено <span>13136</span> раз<small>артикул 002885</small></span>
-														<noindex><span class="productDescription">Luglio, Olio di Sansa, Италия</span></noindex>
-													</figcaption>
-												</figure>
-												<span class="price"><span class="priceWrap"> <span class="oldPrice">409<i></i></span>  299 руб </span><small>(1 л)</small></span>
-											</a>
-											<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">49</span> отзывов</small>
-										</article>
-										<article data-product-id="14320" data-product-title="Сок Березовый с сахаром 1л" class="product prod14320 swiper-slide-next" data-swiper-slide-index="2" style="width: 184px;">
-											<div class="js-list-prod_fav-item prod_fav">
-												<span class="align_helper"></span>
-												<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="14320" data-image="https://storage.delikateska.ru/cache/a/a/berezovyi-s-sakharom-10l-avs.png/w480.png"></span>
-											</div>
-											<span class="labels"> <a href="/catalog/newbee"><span class="badge new">новинка!</span></a>
-												<a href="/promotions/tovar-dnya-129"><span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
-											</span>
-											<a href="/product/14320" class="product-list-item-link">
-												<figure>
-													<span class="product_img"><img alt="Сок Березовый с сахаром 1л" src="https://storage.delikateska.ru/cache/a/a/berezovyi-s-sakharom-10l-avs.png/140.png"></span>
-													<figcaption>
-														<span class="productHeader">Сок Березовый с сахаром 1л</span>
-														<span class="productDescription productDescription--hide"><small>артикул 014320</small></span>
-														<noindex><span class="productDescription">стерилизованный, асептически упакованный</span></noindex>
-													</figcaption>
-												</figure>
-												<span class="price"><span class="priceWrap"> <span class="oldPrice">69<i></i></span>  59 руб </span><small>(1 л)</small></span>
-											</a>
-											<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">16</span> отзывов</small>
-										</article>
-										<article data-product-id="10621" data-product-title="Торт-мороженое Фантастика 561г" class="product prod10621" data-swiper-slide-index="3" style="width: 184px;">
-											<div class="js-list-prod_fav-item prod_fav">
-												<span class="align_helper"></span>
-												<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="10621" data-image="https://storage.delikateska.ru/cache/7/4/morozhenoe-fantastika_d7.jpg/w480.jpg"></span>
-											</div>
-											<span class="labels">
-												<a href="/promotions/tovar-dnya-129"><span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
-											</span>
-											<a href="/product/10621" class="product-list-item-link">
-												<figure>
-													<span class="product_img"><img alt="Торт-мороженое Фантастика 561г" src="https://storage.delikateska.ru/cache/7/4/morozhenoe-fantastika_d7.jpg/140.jpg"></span>
-													<figcaption>
-														<span class="productHeader">Торт-мороженое Фантастика 561г</span>
-														<span class="productDescription productDescription--hide">Куплено <span>891</span> раз<small>артикул 010621</small></span>
-														<noindex><span class="productDescription">с заменителем молочного жира, Испания</span></noindex>
-													</figcaption>
-												</figure>
-												<span class="price"><span class="priceWrap"> <span class="oldPrice">679<i></i></span>  359 руб </span><small>(0.561 кг)</small></span>
-											</a>
-											<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">31</span> отзыв</small>
-										</article>
-										<article data-product-id="4442" data-product-title="Моллюск венерка 500г" class="product prod4442" data-swiper-slide-index="4" style="width: 184px;">
-											<div class="js-list-prod_fav-item prod_fav">
-												<span class="align_helper"></span>
-												<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="4442" data-image="https://storage.delikateska.ru/cache/8/0/venerka-bu.jpg/w480.jpg"></span>
-											</div>
-											<span class="labels"><a href="/promotions/tovar-dnya-129">
-												<span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
-											</span>
-											<a href="/product/4442" class="product-list-item-link">
-											<figure>
-											<span class="product_img"><img alt="Моллюск венерка 500г" src="https://storage.delikateska.ru/cache/8/0/venerka-bu.jpg/140.jpg"></span>
-												<figcaption>
-													<span class="productHeader">Моллюск венерка 500г</span>
-													<span class="productDescription productDescription--hide">Куплено <span>883</span> раза<small>артикул 004442</small></span>
-													<noindex><span class="productDescription">размер 31/40, петушок вонголе, варено-мороженый, на створках</span></noindex>
-												</figcaption>
-											</figure>
-											<span class="price"><span class="priceWrap"> <span class="oldPrice">353<i></i></span>  289 руб </span><small>(0.5 кг)</small></span>
-											</a>   <button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">16</span> отзывов</small>
-										</article>
-										<article data-product-id="1641" data-product-title="Колбаса Фуэт Экстра 150г" class="product prod1641" data-swiper-slide-index="5" style="width: 184px;">
-											<div class="js-list-prod_fav-item prod_fav">
-												<span class="align_helper"></span>
-												<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="1641" data-image="https://storage.delikateska.ru/cache/7/c/ekstra-150.jpg/w480.jpg"></span>
-											</div>
-											<span class="labels">
-												<a href="/promotions/tovar-dnya-129"><span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
-											</span>
-											<a href="/product/1641" class="product-list-item-link">
-												<figure>
-													<span class="product_img"><img alt="Колбаса Фуэт Экстра 150г" src="https://storage.delikateska.ru/cache/7/c/ekstra-150.jpg/140.jpg"></span>
-													<figcaption>
-														<span class="productHeader">Колбаса Фуэт Экстра 150г</span>
-														<span class="productDescription productDescription--hide">Куплено <span>1555</span> раз<small>артикул 001641</small></span>
-														<noindex><span class="productDescription">сыровяленая, по испанской технологии, Casademont </span></noindex>
-													</figcaption>
-												</figure>
-												<span class="price"><span class="priceWrap"> <span class="oldPrice">349<i></i></span>  299 руб </span><small>(0.15 кг)</small></span>
-											</a>
-											<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">41</span> отзыв</small>
-										</article>
-										<article data-product-id="2513" data-product-title="Томатный соус Мичуринский 325г" class="product prod2513  swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 184px;">
-											<div class="js-list-prod_fav-item prod_fav">
-												<span class="align_helper"></span>
-												<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="2513" data-image="https://storage.delikateska.ru/cache/c/b/michurinskii.jpg/w480.jpg"></span>
-											</div>
-											<span class="labels">
-												<a href="/catalog/hit"><span class="badge hit">хит продаж!</span></a>
-												<a href="/promotions/tovar-dnya-129">
-													<span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span>
+												<a href="/product/1641" class="product-list-item-link">
+													<figure><span class="product_img"><img alt="Колбаса Фуэт Экстра 150г" src="https://storage.delikateska.ru/cache/7/c/ekstra-150.jpg/140.jpg"></span>
+														<figcaption>
+															<span class="productHeader">Колбаса Фуэт Экстра 150г</span>
+															<span class="productDescription productDescription--hide">Куплено <span>1555</span> раз<small>артикул 001641</small></span>
+															<noindex>
+																<span class="productDescription">сыровяленая, по испанской технологии, Casademont </span>
+															</noindex>
+
+															<span class="productArticule">Артикул <span>00000001065</span></span>
+															<span class="productAvailability">Наличие на складе: <span>Да</span></span>
+														</figcaption>
+													</figure>
+													<span class="price"><span class="priceWrap">299</span><span> р./шт </span></span>
 												</a>
-											</span>
-											<a href="/product/2513" class="product-list-item-link">
+												<!--add-->
+													<div class="bx_catalog_item_controls_old js-element">
+														<div class="bx_catalog_item_controls_blockone add2basketform ">
+															<div class="quantity">
+																<a href="javascript:void(0)" class="minus" rel="nofollow"><i class="fa"></i></a>
+																<input onkeyup="this.value = this.value.replace(/[^\d,.]*/g, '').replace(/,/g, '.').replace(/^[^\d]*(\d+([.,]\d{0,5})?).*$/g, '$1');" type="text" class="js-quantity text-center" id="bx_2662763187_670_quantity" name="quantity" value="1">
+																<a href="javascript:void(0)" class="plus" rel="nofollow"><i class="fa"></i></a>
+
+															</div>
+														</div>
+														<!--<div id="bx_2662763187_670_basket_actions" class="bx_catalog_item_controls_blocktwo buybtn">-->
+															<!--<a id="bx_2662763187_670_buy_link" class="submit" href="javascript:void(0)" rel="nofollow"> Купить </a>-->
+														<!--</div>-->
+													</div>
+												<!--end add-->
+												<!--<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest&#45;&#45;vis">  товар на складе  </small>  <small class="rest rest&#45;&#45;vis"><span id="comments-count">41</span> отзыв</small>-->
+											</article>
+
+											<article data-product-id="2513" data-product-title="Томатный соус Мичуринский 325г" class="product prod2513" data-swiper-slide-index="0">
+												<div class="js-list-prod_fav-item prod_fav">
+													<span class="align_helper"></span>
+													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="2513" data-image="https://storage.delikateska.ru/cache/c/b/michurinskii.jpg/w480.jpg">
+													</span>
+												</div>
+												<span class="labels">
+													<a href="/catalog/hit"><span class="badge hit">хит продаж!</span></a>
+													<a href="/promotions/tovar-dnya-129"><span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
+												</span>
+												<a href="/product/2513" class="product-list-item-link">
+													<figure><span class="product_img"><img alt="Томатный соус Мичуринский 325г" src="https://storage.delikateska.ru/cache/c/b/michurinskii.jpg/140.jpg"></span>
+														<figcaption>
+															<span class="productHeader">Томатный соус Мичуринский 325г</span>
+															<span class="productDescription productDescription--hide">Куплено <span>15817</span> раз<small>артикул 002513</small></span>
+															<noindex>
+																<span class="productDescription">100% натуральный продукт, кетчуп классический</span>
+															</noindex>
+														</figcaption>
+													</figure>
+													<span class="price"><span class="priceWrap">59 р./шт</span></span>
+												</a>
+												<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">85</span> отзывов</small>
+											</article>
+
+											<article data-product-id="2885" data-product-title="Масло оливковое для жарки рафинированное 1л" class="product prod2885" data-swiper-slide-index="1" style="width: 184px;">
+												<div class="js-list-prod_fav-item prod_fav">
+													<span class="align_helper"></span>
+													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="2885" data-image="https://storage.delikateska.ru/cache/7/4/sansa.jpg/w480.jpg"></span>
+												</div>
+												<span class="labels">
+													<a href="/promotions/tovar-dnya-129"><span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
+												</span>
+												<a href="/product/2885" class="product-list-item-link">
+													<figure>
+														<span class="product_img"><img alt="Масло оливковое для жарки рафинированное 1л" src="https://storage.delikateska.ru/cache/7/4/sansa.jpg/140.jpg"></span>
+														<figcaption>
+															<span class="productHeader">Масло оливковое для жарки рафинированное 1л</span>
+															<span class="productDescription productDescription--hide">Куплено <span>13136</span> раз<small>артикул 002885</small></span>
+															<noindex><span class="productDescription">Luglio, Olio di Sansa, Италия</span></noindex>
+														</figcaption>
+													</figure>
+													<span class="price"><span class="priceWrap">299 р./шт </span></span>
+												</a>
+												<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">49</span> отзывов</small>
+											</article>
+
+											<article data-product-id="14320" data-product-title="Сок Березовый с сахаром 1л" class="product prod14320" data-swiper-slide-index="2">
+												<div class="js-list-prod_fav-item prod_fav">
+													<span class="align_helper"></span>
+													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="14320" data-image="https://storage.delikateska.ru/cache/a/a/berezovyi-s-sakharom-10l-avs.png/w480.png"></span>
+												</div>
+												<span class="labels"> <a href="/catalog/newbee"><span class="badge new">новинка!</span></a>
+													<a href="/promotions/tovar-dnya-129"><span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
+												</span>
+												<a href="/product/14320" class="product-list-item-link">
+													<figure>
+														<span class="product_img"><img alt="Сок Березовый с сахаром 1л" src="https://storage.delikateska.ru/cache/a/a/berezovyi-s-sakharom-10l-avs.png/140.png"></span>
+														<figcaption>
+															<span class="productHeader">Сок Березовый с сахаром 1л</span>
+															<span class="productDescription productDescription--hide"><small>артикул 014320</small></span>
+															<noindex><span class="productDescription">стерилизованный, асептически упакованный</span></noindex>
+														</figcaption>
+													</figure>
+													<span class="price"><span class="priceWrap">59 р./шт</span></span>
+												</a>
+												<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">16</span> отзывов</small>
+											</article>
+
+											<article data-product-id="10621" data-product-title="Торт-мороженое Фантастика 561г" class="product prod10621" data-swiper-slide-index="3">
+												<div class="js-list-prod_fav-item prod_fav">
+													<span class="align_helper"></span>
+													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="10621" data-image="https://storage.delikateska.ru/cache/7/4/morozhenoe-fantastika_d7.jpg/w480.jpg"></span>
+												</div>
+												<span class="labels">
+													<a href="/promotions/tovar-dnya-129"><span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
+												</span>
+												<a href="/product/10621" class="product-list-item-link">
+													<figure>
+														<span class="product_img"><img alt="Торт-мороженое Фантастика 561г" src="https://storage.delikateska.ru/cache/7/4/morozhenoe-fantastika_d7.jpg/140.jpg"></span>
+														<figcaption>
+															<span class="productHeader">Торт-мороженое Фантастика 561г</span>
+															<span class="productDescription productDescription--hide">Куплено <span>891</span> раз<small>артикул 010621</small></span>
+															<noindex><span class="productDescription">с заменителем молочного жира, Испания</span></noindex>
+														</figcaption>
+													</figure>
+													<span class="price"><span class="priceWrap">359 р./шт</span></span>
+												</a>
+												<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">31</span> отзыв</small>
+											</article>
+
+											<article data-product-id="4442" data-product-title="Моллюск венерка 500г" class="product prod4442" data-swiper-slide-index="4">
+												<div class="js-list-prod_fav-item prod_fav">
+													<span class="align_helper"></span>
+													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="4442" data-image="https://storage.delikateska.ru/cache/8/0/venerka-bu.jpg/w480.jpg"></span>
+												</div>
+												<span class="labels"><a href="/promotions/tovar-dnya-129">
+													<span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
+												</span>
+												<a href="/product/4442" class="product-list-item-link">
 												<figure>
-													<span class="product_img"><img alt="Томатный соус Мичуринский 325г" src="https://storage.delikateska.ru/cache/c/b/michurinskii.jpg/140.jpg"></span>
+												<span class="product_img"><img alt="Моллюск венерка 500г" src="https://storage.delikateska.ru/cache/8/0/venerka-bu.jpg/140.jpg"></span>
 													<figcaption>
-														<span class="productHeader">Томатный соус Мичуринский 325г</span>
-														<span class="productDescription productDescription--hide">Куплено <span>15817</span> раз<small>артикул 002513</small></span>
-														<noindex><span class="productDescription">100% натуральный продукт, кетчуп классический</span></noindex>
+														<span class="productHeader">Моллюск венерка 500г</span>
+														<span class="productDescription productDescription--hide">Куплено <span>883</span> раза<small>артикул 004442</small></span>
+														<noindex><span class="productDescription">размер 31/40, петушок вонголе, варено-мороженый, на створках</span></noindex>
 													</figcaption>
 												</figure>
-												<span class="price"><span class="priceWrap"><span class="oldPrice">73<i></i></span>  59 руб </span><small>(0.325 кг)</small></span>
-											</a>
-											<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">85</span> отзывов</small>
-										</article>
+												<span class="price"><span class="priceWrap">289 р./шт </span></span>
+												</a>   <button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">16</span> отзывов</small>
+											</article>
+
+											<article data-product-id="1641" data-product-title="Колбаса Фуэт Экстра 150г" class="product prod1641" data-swiper-slide-index="5" style="width: 184px;">
+												<div class="js-list-prod_fav-item prod_fav">
+													<span class="align_helper"></span>
+													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="1641" data-image="https://storage.delikateska.ru/cache/7/c/ekstra-150.jpg/w480.jpg"></span>
+												</div>
+												<span class="labels">
+													<a href="/promotions/tovar-dnya-129"><span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span></a>
+												</span>
+												<a href="/product/1641" class="product-list-item-link">
+													<figure>
+														<span class="product_img"><img alt="Колбаса Фуэт Экстра 150г" src="https://storage.delikateska.ru/cache/7/c/ekstra-150.jpg/140.jpg"></span>
+														<figcaption>
+															<span class="productHeader">Колбаса Фуэт Экстра 150г</span>
+															<span class="productDescription productDescription--hide">Куплено <span>1555</span> раз<small>артикул 001641</small></span>
+															<noindex><span class="productDescription">сыровяленая, по испанской технологии, Casademont </span></noindex>
+														</figcaption>
+													</figure>
+													<span class="price"><span class="priceWrap">299 р./шт </span></span>
+												</a>
+												<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">41</span> отзыв</small>
+											</article>
+
+											<article data-product-id="2513" data-product-title="Томатный соус Мичуринский 325г" class="product prod2513  swiper-slide-duplicate" data-swiper-slide-index="0">
+												<div class="js-list-prod_fav-item prod_fav">
+													<span class="align_helper"></span>
+													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="2513" data-image="https://storage.delikateska.ru/cache/c/b/michurinskii.jpg/w480.jpg"></span>
+												</div>
+												<span class="labels">
+													<a href="/catalog/hit"><span class="badge hit">хит продаж!</span></a>
+													<a href="/promotions/tovar-dnya-129">
+														<span class="badge action" data-keep-on-tip="false" data-show-event="mouseenter" data-tooltip="ТОВАР ДНЯ">акция!</span>
+													</a>
+												</span>
+												<a href="/product/2513" class="product-list-item-link">
+													<figure>
+														<span class="product_img"><img alt="Томатный соус Мичуринский 325г" src="https://storage.delikateska.ru/cache/c/b/michurinskii.jpg/140.jpg"></span>
+														<figcaption>
+															<span class="productHeader">Томатный соус Мичуринский 325г</span>
+															<span class="productDescription productDescription--hide">Куплено <span>15817</span> раз<small>артикул 002513</small></span>
+															<noindex><span class="productDescription">100% натуральный продукт, кетчуп классический</span></noindex>
+														</figcaption>
+													</figure>
+													<span class="price"><span class="priceWrap">59 р./шт </span></span>
+												</a>
+												<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">85</span> отзывов</small>
+											</article>
 										</div>
-										<div class="swiper-button-next swiper-button-next--new-product">
-										<span class="font-icon-ccw"></span>
-										</div>
+									<div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+									<div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
 									</div>
+									<!--
 									<div class="swiper-container swiper-container--good-of-day--tablet swiper-container-horizontal">
-										<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
-											<article data-product-id="2513" data-product-title="Томатный соус Мичуринский 325г" class="product prod2513 swiper-slide-active" style="width: 138px;">
+										<div class="swiper-wrapper">
+											<article data-product-id="2513" data-product-title="Томатный соус Мичуринский 325г" class="product prod2513">
 												<div class="js-list-prod_fav-item prod_fav">
 													<span class="align_helper"></span>
 													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="2513" data-image="https://storage.delikateska.ru/cache/c/b/michurinskii.jpg/w480.jpg"></span>
@@ -809,7 +844,7 @@
 												</a>
 												<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">85</span> отзывов</small>
 											</article>
-											<article data-product-id="2885" data-product-title="Масло оливковое для жарки рафинированное 1л" class="product prod2885 swiper-slide-next" style="width: 138px;">
+											<article data-product-id="2885" data-product-title="Масло оливковое для жарки рафинированное 1л" class="product prod2885">
 												<div class="js-list-prod_fav-item prod_fav">
 													<span class="align_helper"></span>
 													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="2885" data-image="https://storage.delikateska.ru/cache/7/4/sansa.jpg/w480.jpg"></span>
@@ -831,7 +866,7 @@
 													<span class="price"><span class="priceWrap"> <span class="oldPrice">409<i></i></span>  299 руб </span><small>(1 л)</small></span> </a>
 												<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">49</span> отзывов</small>
 											</article>
-											<article data-product-id="14320" data-product-title="Сок Березовый с сахаром 1л" class="product prod14320" style="width: 138px;">
+											<article data-product-id="14320" data-product-title="Сок Березовый с сахаром 1л" class="product prod14320">
 												<div class="js-list-prod_fav-item prod_fav">
 													<span class="align_helper"></span>
 													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="14320" data-image="https://storage.delikateska.ru/cache/a/a/berezovyi-s-sakharom-10l-avs.png/w480.png"></span>
@@ -851,7 +886,7 @@
 													</figure>
 													<span class="price"><span class="priceWrap"> <span class="oldPrice">69<i></i></span>  59 руб </span><small>(1 л)</small></span> </a>   <button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">16</span> отзывов</small>
 											</article>
-											<article data-product-id="10621" data-product-title="Торт-мороженое Фантастика 561г" class="product prod10621" style="width: 138px;">
+											<article data-product-id="10621" data-product-title="Торт-мороженое Фантастика 561г" class="product prod10621">
 												<div class="js-list-prod_fav-item prod_fav">
 													<span class="align_helper"></span>
 													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="10621" data-image="https://storage.delikateska.ru/cache/7/4/morozhenoe-fantastika_d7.jpg/w480.jpg"></span>
@@ -872,7 +907,7 @@
 												</a>
 												<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">31</span> отзыв</small>
 											</article>
-											<article data-product-id="4442" data-product-title="Моллюск венерка 500г" class="product prod4442" style="width: 138px;">
+											<article data-product-id="4442" data-product-title="Моллюск венерка 500г" class="product prod4442">
 												<div class="js-list-prod_fav-item prod_fav">
 													<span class="align_helper"></span>
 													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="4442" data-image="https://storage.delikateska.ru/cache/8/0/venerka-bu.jpg/w480.jpg"></span>
@@ -893,7 +928,7 @@
 												</a>
 												<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">16</span> отзывов</small>
 											</article>
-											<article data-product-id="1641" data-product-title="Колбаса Фуэт Экстра 150г" class="product prod1641" style="width: 138px;">
+											<article data-product-id="1641" data-product-title="Колбаса Фуэт Экстра 150г" class="product prod1641">
 												<div class="js-list-prod_fav-item prod_fav">
 													<span class="align_helper"></span>
 													<span class="font-icon-heart-empty js-btn_fav btn_fav" data-object="catalog" data-object-id="1641" data-image="https://storage.delikateska.ru/cache/7/c/ekstra-150.jpg/w480.jpg"></span>
@@ -914,13 +949,10 @@
 												<button>купить <span class="count"><i>0</i> <span class="font-icon-cart"></span></span></button> <small class="rest rest--vis">  товар на складе  </small>  <small class="rest rest--vis"><span id="comments-count">41</span> отзыв</small>
 											</article>
 										</div>
-										<div class="swiper-promo__alternative-controls">
-										<div class="swiper-button-prev swiper-button-prev--promo swiper-button-disabled">
-											<span class="font-icon-big-arr-left"></span>
-										</div>
-										<div class="swiper-button-next swiper-button-next--promo swiper-button-disabled"><span class="font-icon-big-arr-right"></span></div>
-										</div>
+										<div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+										<div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
 									</div>
+									-->
 								</div>
 							</div>
 						</div>
@@ -1040,7 +1072,6 @@
 							</div>
 						</div>
 					</div>
-					<script type="text/javascript">RSMONOPOLY_SetSet();</script>
 				</div>
 				<div id="sidebar" class="col col-md-3 col-md-pull-9">
 					<div class="fixedMenu">
