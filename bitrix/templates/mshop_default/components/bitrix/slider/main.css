@@ -46,20 +46,20 @@
 
 .product figure span.product_img {
     display: block;
-    height: 140px
+    height: 170px
 }
 
 .product figure span.product_img:before {
     display: inline-block;
     width: 0;
-    height: 140px;
+    height: 170px;
     content: ' ';
     vertical-align: middle
 }
 
 .product figure span.product_img img {
     max-width: 140px;
-    max-height: 140px;
+    max-height: 170px;
     vertical-align: middle
 }
 
@@ -80,6 +80,7 @@
     display: block;
     color: #757575;
     font-size: 13px;
+    line-height: 14px;
     font-weight: 400;
     text-align: center;
 }
@@ -115,7 +116,7 @@
 .product .price {
     display: inline-block;
     zoom: 1;
-    margin-top: 10px;
+    margin-top: 6px;
     color: #f36f3c;
     font-size: 30px;
 }
@@ -123,9 +124,13 @@
 .product .labels {
     position: absolute;
     z-index: 1;
-    top: 10px;
-    right: 0;
-    line-height: 1
+    top: 8px;
+    right: 10px;
+    line-height: 1;
+    width: 44px;
+    height: 79px;
+    background: url(../../../images/new-label.png) 0 0 no-repeat;
+
 }
 
 .product small.rest {
@@ -467,13 +472,29 @@ bigPromo, .mainPromo {
 }
 
 .mainPromo .sidePromotion .sidePromotion_title {
+    position: relative;
     background-color: #f36f3c;
     color: #fff;
     text-transform: uppercase;
     font-size: 15px;
-    padding: 19px 0;
+    padding: 13px 0;
     font-weight: 700;
     text-align: center;
+}
+
+.sidePromotion .quantity {
+    margin-bottom: 4px;
+}
+
+.mainPromo .sidePromotion .sidePromotion_title::after {
+    content: '';
+    position: absolute;
+    z-index: 999;
+    bottom: -12px;
+    margin-left: -6px;
+    left: 50%;
+    border: 6px solid transparent;
+    border-top-color: #f36f3c;
 }
 
 .mainPromo .sidePromotion .sliderControls {
@@ -1039,7 +1060,7 @@ button.swiper-pagination-bullet {
 .swiper-container .swiper-button-next,
 .swiper-container .swiper-button-prev {
     z-index: 10;
-    top: 17px;
+    top: 21px;
     width: auto;
     height: auto;
     color: #fff !important;
@@ -1133,15 +1154,13 @@ button.swiper-pagination-bullet {
     zoom: 1;
     margin-bottom: 1px;
     padding: 5px 8px 4px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     color: #fff;
-    font-size: 9px;
+    font-size: 13px;
     font-weight: 700;
     line-height: 1;
-    width: 44px;
-    height: 77px;
-    background: url(../../../images/) 0 0 no-repeat;
+    background: none;
 }
 
 .badge.new {
@@ -1156,8 +1175,11 @@ button.swiper-pagination-bullet {
     background: #bb3742
 }
 
-.badge.action {
-    background: #3aa1e2
+.product .labels a {
+    position: absolute;
+    top: 22px;
+    left: -20%;
+    transform: rotate(-90deg);
 }
 
 .badge.kit {
@@ -1191,6 +1213,7 @@ button.swiper-pagination-bullet {
     top: 0;
     right: 0;
     width: 261px;
+    height: 100%;
     text-align: center
 }
 
@@ -1198,18 +1221,22 @@ button.swiper-pagination-bullet {
     position: relative;
     display: block;
     width: auto;
-    height: 118px;
+    height: 58px;
     margin-top: 0;
     padding: 0;
     transition: color .15s;
     text-align: center;
     text-decoration: none;
     color: #63686f;
-    /*border: 1px solid #f2f2f2;*/
+    border: 1px solid #f2f2f2;
     border-bottom: 0;
     background: #fff;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.promosSwitcher .promosList a:first-child {
+    border-top: none;
 }
 
 .promosSwitcher .promosList a span {
@@ -1238,7 +1265,7 @@ button.swiper-pagination-bullet {
 }
 
 .promosSwitcher .promosList a:hover {
-    color: #bb3742
+    color: #f36f3c;
 }
 
 .promosSwitcher .promosList a.active {
@@ -1297,6 +1324,10 @@ button.swiper-pagination-bullet {
 
 .promosSwitcher .promosList.size_7 a, .promosSwitcher .promosList.size_7 a:before {
     height: 58px
+}
+
+.promosSwitcher .promosList.size_7 a:nth-child(2n) {
+    height: 59px;
 }
 
 .promosSwitcher .promosList.size_7 a.active:after, .promosSwitcher .promosList.size_7 a:hover:after {
