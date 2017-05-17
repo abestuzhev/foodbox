@@ -85,8 +85,13 @@
     text-align: center;
 }
 
-.product .productAvailability span {
+.product .productAvailability-yes {
     color: #159b09;
+    font-weight: 700;
+}
+
+.product .productAvailability-no {
+    color: #9b0909;
     font-weight: 700;
 }
 
