@@ -27,6 +27,7 @@
 	<link href="template_styles.css" type="text/css" data-template-style="true" rel="stylesheet"/>
 	<!--new style-->
 	<link href="new-style.css" type="text/css" data-template-style="true" rel="stylesheet"/>
+	<link href="styles/new-media.css" type="text/css" data-template-style="true" rel="stylesheet"/>
 	<!--end new-style-->
 	<!--slider style-->
 	<link href="components/bitrix/slider/main.css" type="text/css" data-template-style="true" rel="stylesheet"/>
@@ -74,6 +75,7 @@
 	<script src="components/bitrix/slider/swiper.min.js"></script>
 	<script src="components/bitrix/slider/swiper.jquery.min.js"></script>
 	<script type="text/javascript" src="components/bitrix/slider/main.js"></script>
+	<script type="text/javascript" src="js/readmore.js/read-more.min.js"></script>
 	<!--END slider script-->
 
 	<title itemprop="name"> Интернет-магазин FoodBox | Продукты питания, овощи, фрукты | Доставка на дом и офис </title>
@@ -85,12 +87,25 @@
 	<!-- header.no-border - стиль без бордеров -->
 	<!-- header.color - стиль с заливкой -->
 	<div class="mobileAuth">
-		<div class="authinhead dropdown" id="authinhead">
-			<!--'start_frame_cache_authinhead'-->
-			<!--<a id="ddPersonalMenu" href="/personal/">Личный кабинет</a>-->
-			<a id="ddPersonalMenu" href="#" class="js-reg">Регистрация</a>
-			<a id="ddEntry" href="#" class="js-entry">Вход</a>
-			<!--'end_frame_cache_authinhead'--></div>
+		<div class="mobileAuth_item">
+			<div class="authinhead dropdown" id="authinhead">
+				<!--'start_frame_cache_authinhead'-->
+				<!-- <a id="ddPersonalMenu" href="/personal/">Личный кабинет</a> -->
+				<a id="ddPersonalMenu" href="#" class="js-reg">Регистрация</a>
+				<a id="ddEntry" href="#" class="js-entry">Вход</a>
+				<!--'end_frame_cache_authinhead'-->
+			</div>
+		</div>
+		<div class="mobileAuth_item">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				<span class="full-width-menu">Каталог</span>
+				<span class="icon-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</span>
+			</button>
+		</div>
 	</div>
 	<header class="style4 color">
 		<!-- Navbar -->
@@ -116,6 +131,7 @@
 						</div>
 						<div class="box contacts text-right">
 							<div class="in">
+							<div class="contacts_title"><img src="images/icon-phone.png" alt=""> заказать звонок</div>
 								<a href="tel:84951206040">+7 (495) <b>120 60 40</b></a> <span>09:00 - 21:00</span></div>
 						</div>
 						<div class="box buttons text-center">
@@ -152,6 +168,18 @@
 										<script type="text/javascript">RSMONOPOLY_DropFancy();</script>
 									</div>
 								</div>
+							</div>
+						</div>
+						<div class="box catalog text-center">
+							<div class="in">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+									<span class="full-width-menu">Каталог</span>
+									<span class="icon-toggle">
+					                    <span class="icon-bar"></span>
+					                    <span class="icon-bar"></span>
+					                    <span class="icon-bar"></span>
+					                  </span>
+								</button>
 							</div>
 						</div>
 						<div class="contactsResponsive contacts text-left">
@@ -496,59 +524,8 @@
 	<div class="myContent">
 		<div class="container">
 			<div class="row">
-				<div class="bx-searchtitle">
-					<div id="title-search">
-						<form action="/catalog/">
-							<div class="bx-input-group">
-								<input id="title-search-input" type="text" name="q" value="" autocomplete="off" class="bx-form-control" placeholder="Поиск по товарам. Введите название товара..."/>
-								<span class="bx-input-group-btn">
-				<button class="btn btn-default" type="submit" name="s"><i class="fa fa-search"></i></button>
-			</span>
-								<span class="bx-input-group-btn" style="padding-left:20px;">
-				<button type="button" onclick="yaCounter38959340.reachGoal('poisk-spiskom'); location.href='/search-by-list/'" class="btn btn-warning" style="background:#ff9b3d;">Подбор по списку</button>
-			</span>
-							</div>
-						</form>
-					</div>
-					<div class="searchExample" id="searchExample">Например, <a href="/catalog/?q=молоко">молоко</a>
-					</div>
-				</div>
-				<script>
-                    BX.ready(function () {
-                        new JCTitleSearch({
-                            'AJAX_PAGE': '/',
-                            'CONTAINER_ID': 'title-search',
-                            'INPUT_ID': 'title-search-input',
-                            'MIN_QUERY_LEN': 2
-                        });
-                        BX.ajax.insertToNode(
-                            '/bitrix/templates/mshop_default/components/bitrix/search.title/foodbox/ajaxExampleSearch.php',
-                            BX('searchExample')
-                        );
-                    });
-				</script>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-
-
-
 				<div class="col col-md-9 col-md-push-3 maincontent">
-					<div class="js-ttl">
-						<div class="page-header"><h1>Фисташки не очищенные (Иран)</h1></div>
-					</div>
 
-					<div class="js-brcrtitle">
-						<ul id="breadcrumbs" class="list-unstyled clearfix" itemscope="" itemtype="http://schema.org/BreadcrumbList">
-							<li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/" title="Главная"><span itemprop="name">Главная</span></a></li>
-							<li class="arrow"></li><li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/catalog/" title="Каталог"><span itemprop="name">Каталог</span></a></li>
-							<li class="arrow"></li>
-							<li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/catalog/sukhofrukty/" title="Сухофрукты"><span itemprop="name">Сухофрукты</span></a></li>
-							<li class="arrow"></li><li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><a itemprop="item" href="/catalog/sukhofrukty/orekhi/" title="Орехи"><span itemprop="name">Орехи</span></a></li>
-							<li class="arrow"></li><li itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem"><span itemprop="name">Фисташки не очищенные (Иран)</span></li>
-						</ul>
-					</div>
 
 
 					<div class="searchResponsive">
@@ -653,10 +630,11 @@
 							                       <div class="title">Комментарий магазина</div>
 							                       Фисташки фасуются в лоток по 300 грамм. В зависимости от заказного количества. Делайте заказ исходя из этих данных.
 												</div>
-												<div class="col col-md-12 previewtext">
-												<div class="title">Описание</div>
-												Польза фисташек для человеческого организма неоценима. В этих орехах содержится олеиновая, стеариновая, пальминитовая и линоленовая кислоты, а также железо, марганец, кальций, цинк, калий, медь и много других минералов и микроэлементов. Витаминный состав так же очень богат: А, В, С, Е, РР, холин, биотин. Полезные свойства сделали эти орешки настолько популярными, что&nbsp;&nbsp;наши древние предки назвали это растение «деревом жизни».<br>
-												Заказывайте фисташки на дом. Мы осуществляем доставку каждый день. Вкусные и здоровые продукты должны быть в вашем рационе каждый день. Выбирайте оптимальную цену и высокое качество, делаете покупки в Интернет магазин ФудБокс.<br>
+												<div class="col col-md-12 previewtext js-readmore" data-options="96">
+													<div class="title">Описание</div>
+													<p>Польза фисташек для человеческого организма неоценима. В этих орехах содержится олеиновая, стеариновая, пальминитовая и линоленовая кислоты, а также железо, марганец, кальций, цинк, калий, медь и много других минералов и микроэлементов. Витаминный состав так же очень богат: А, В, С, Е, РР, холин, биотин. Полезные свойства сделали эти орешки настолько популярными, что&nbsp;&nbsp;наши древние предки назвали это растение «деревом жизни».</p>
+													<p>Польза фисташек для человеческого организма неоценима. В этих орехах содержится олеиновая, стеариновая, пальминитовая и линоленовая кислоты, а также железо, марганец, кальций, цинк, калий, медь и много других минералов и микроэлементов. Витаминный состав так же очень богат: А, В, С, Е, РР, холин, биотин. Полезные свойства сделали эти орешки настолько популярными, что&nbsp;&nbsp;наши древние предки назвали это растение «деревом жизни».</p>
+													<p>Польза фисташек для человеческого организма неоценима. В этих орехах содержится олеиновая, стеариновая, пальминитовая и линоленовая кислоты, а также железо, марганец, кальций, цинк, калий, медь и много других минералов и микроэлементов. Витаминный состав так же очень богат: А, В, С, Е, РР, холин, биотин. Полезные свойства сделали эти орешки настолько популярными, что&nbsp;&nbsp;наши древние предки назвали это растение «деревом жизни».</p>
 												</div>
 												<div class="col col-md-12 previewtext">
 						                            <table width="100%" style="border:1px grey dashed;">
@@ -745,224 +723,6 @@
 							</div>
 					    </div>
 					</div>
-
-
-					<div id="bigdata_recommeded_products_1778543974" class="bigdata_recommended_products_container"><!--'start_frame_cache_Zz2YMH'-->
-		                <div id="bigdata_recommeded_products_346995467_items" class="bigdata_recommended_products_items section-cart row">
-		                    <input type="hidden" name="bigdata_recommendation_id" value="">
-					        <div class="col col-md-12">
-					            <h2 class="coolHeading">
-					                <span class="secondLine">Персональные рекомендации</span>
-					            </h2>
-					        </div>
-		                    <div class="col-md-12">
-			                    <div class="products showcase little" data-items="5" data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"4"}, "956":{"items":"5"}}'>
-									<div class="owl-stage-outer">
-										<div class="owl-stage">
-											<div class="owl-item">
-												<div class="item js-element js-elementid554" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/">
-													<div class="in">
-					                                    <div class="pic">
-															<a href="/catalog/ryba/raki/raki_razmer_40_60/"><img id="imgItem554" src="//opt-919637.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/da8/300_300_140cd750bba9870f18aada2478b24840a/da88a238b0a6afc04dfaa6bfd4fd8b36.jpg?148066562824069" alt="Раки размер 40/60"></a>
-					                                    </div>
-		                                                <div class="data">
-		                                                    <div class="name"><a class="aprimary" href="/catalog/ryba/raki/raki_razmer_40_60/">Раки размер 40/60</a><br></div>
-					                                        <div class="row buy">
-							                                    <div class="col col-xs-6 prices"><div class="price cool">1 350 р./кг</div></div>
-					                                        </div>
-							                                <div class="row bot">
-							                                    <div class="col col-xs-6 text-right buybtn">
-							                                        <noindex>
-							                                            <form class="add2basketform js-buyform554 usequantity" name="add2basketform">
-																			<span class="quantity"><a class="minus js-minus"><i class="fa"></i></a>
-																				<input onkeyup="this.value = this.value.replace(/[^\d,.]*/g, '').replace(/,/g, '.').replace(/^[^\d]*(\d+([.,]\d{0,5})?).*$/g, '$1');" type="text" class="js-quantity text-center" name="quantity" value="1" data-ratio="1"><a class="plus js-plus"><i class="fa"></i></a><span class="js-measurename">кг</span>
-																			</span>
-																			<input type="hidden" name="action" value="ADD2BASKET">
-							                                                <input type="hidden" name="id" class="js-add2basketpid" value="554">
-							                                                <button type="submit" rel="nofollow" class="btn btn-primary submit js-add2basketlink" value=""></button>
-							                                                <a class="btn btn-primary inbasket" href="/personal/basket.php">В корзине</a>
-							                                            </form>
-							                                        </noindex>
-							                                    </div>
-																<div class="favorite favorite-heart" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/"></div>
-							                                </div>
-							                            </div>
-							                        </div>
-							                    </div>
-											</div><!--end owl-item-->
-
-											<div class="owl-item">
-													<div class="item js-element js-elementid554" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/">
-														<div class="in">
-						                                    <div class="pic">
-																<a href="/catalog/ryba/raki/raki_razmer_40_60/"><img id="imgItem554" src="//opt-919637.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/da8/300_300_140cd750bba9870f18aada2478b24840a/da88a238b0a6afc04dfaa6bfd4fd8b36.jpg?148066562824069" alt="Раки размер 40/60"></a>
-						                                    </div>
-			                                                <div class="data">
-			                                                    <div class="name"><a class="aprimary" href="/catalog/ryba/raki/raki_razmer_40_60/">Раки размер 40/60</a><br></div>
-						                                        <div class="row buy">
-								                                    <div class="col col-xs-6 prices"><div class="price cool">1 350 р./кг</div></div>
-						                                        </div>
-								                                <div class="row bot">
-								                                    <div class="col col-xs-6 text-right buybtn">
-								                                        <noindex>
-								                                            <form class="add2basketform js-buyform554 usequantity" name="add2basketform">
-																				<span class="quantity"><a class="minus js-minus"><i class="fa"></i></a>
-																					<input onkeyup="this.value = this.value.replace(/[^\d,.]*/g, '').replace(/,/g, '.').replace(/^[^\d]*(\d+([.,]\d{0,5})?).*$/g, '$1');" type="text" class="js-quantity text-center" name="quantity" value="1" data-ratio="1"><a class="plus js-plus"><i class="fa"></i></a><span class="js-measurename">кг</span>
-																				</span>
-																				<input type="hidden" name="action" value="ADD2BASKET">
-								                                                <input type="hidden" name="id" class="js-add2basketpid" value="554">
-								                                                <button type="submit" rel="nofollow" class="btn btn-primary submit js-add2basketlink" value=""></button>
-								                                                <a class="btn btn-primary inbasket" href="/personal/basket.php">В корзине</a>
-								                                            </form>
-								                                        </noindex>
-								                                    </div>
-																	<div class="favorite favorite-heart" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/"></div>
-								                                </div>
-								                            </div>
-								                        </div>
-								                    </div>
-												</div><!--end owl-item-->
-
-											<div class="owl-item">
-													<div class="item js-element js-elementid554" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/">
-														<div class="in">
-						                                    <div class="pic">
-																<a href="/catalog/ryba/raki/raki_razmer_40_60/"><img id="imgItem554" src="//opt-919637.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/da8/300_300_140cd750bba9870f18aada2478b24840a/da88a238b0a6afc04dfaa6bfd4fd8b36.jpg?148066562824069" alt="Раки размер 40/60"></a>
-						                                    </div>
-			                                                <div class="data">
-			                                                    <div class="name"><a class="aprimary" href="/catalog/ryba/raki/raki_razmer_40_60/">Раки размер 40/60</a><br></div>
-						                                        <div class="row buy">
-								                                    <div class="col col-xs-6 prices"><div class="price cool">1 350 р./кг</div></div>
-						                                        </div>
-								                                <div class="row bot">
-								                                    <div class="col col-xs-6 text-right buybtn">
-								                                        <noindex>
-								                                            <form class="add2basketform js-buyform554 usequantity" name="add2basketform">
-																				<span class="quantity"><a class="minus js-minus"><i class="fa"></i></a>
-																					<input onkeyup="this.value = this.value.replace(/[^\d,.]*/g, '').replace(/,/g, '.').replace(/^[^\d]*(\d+([.,]\d{0,5})?).*$/g, '$1');" type="text" class="js-quantity text-center" name="quantity" value="1" data-ratio="1"><a class="plus js-plus"><i class="fa"></i></a><span class="js-measurename">кг</span>
-																				</span>
-																				<input type="hidden" name="action" value="ADD2BASKET">
-								                                                <input type="hidden" name="id" class="js-add2basketpid" value="554">
-								                                                <button type="submit" rel="nofollow" class="btn btn-primary submit js-add2basketlink" value=""></button>
-								                                                <a class="btn btn-primary inbasket" href="/personal/basket.php">В корзине</a>
-								                                            </form>
-								                                        </noindex>
-								                                    </div>
-																	<div class="favorite favorite-heart" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/"></div>
-								                                </div>
-								                            </div>
-								                        </div>
-								                    </div>
-												</div><!--end owl-item-->
-
-											<div class="owl-item">
-													<div class="item js-element js-elementid554" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/">
-														<div class="in">
-						                                    <div class="pic">
-																<a href="/catalog/ryba/raki/raki_razmer_40_60/"><img id="imgItem554" src="//opt-919637.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/da8/300_300_140cd750bba9870f18aada2478b24840a/da88a238b0a6afc04dfaa6bfd4fd8b36.jpg?148066562824069" alt="Раки размер 40/60"></a>
-						                                    </div>
-			                                                <div class="data">
-			                                                    <div class="name"><a class="aprimary" href="/catalog/ryba/raki/raki_razmer_40_60/">Раки размер 40/60</a><br></div>
-						                                        <div class="row buy">
-								                                    <div class="col col-xs-6 prices"><div class="price cool">1 350 р./кг</div></div>
-						                                        </div>
-								                                <div class="row bot">
-								                                    <div class="col col-xs-6 text-right buybtn">
-								                                        <noindex>
-								                                            <form class="add2basketform js-buyform554 usequantity" name="add2basketform">
-																				<span class="quantity"><a class="minus js-minus"><i class="fa"></i></a>
-																					<input onkeyup="this.value = this.value.replace(/[^\d,.]*/g, '').replace(/,/g, '.').replace(/^[^\d]*(\d+([.,]\d{0,5})?).*$/g, '$1');" type="text" class="js-quantity text-center" name="quantity" value="1" data-ratio="1"><a class="plus js-plus"><i class="fa"></i></a><span class="js-measurename">кг</span>
-																				</span>
-																				<input type="hidden" name="action" value="ADD2BASKET">
-								                                                <input type="hidden" name="id" class="js-add2basketpid" value="554">
-								                                                <button type="submit" rel="nofollow" class="btn btn-primary submit js-add2basketlink" value=""></button>
-								                                                <a class="btn btn-primary inbasket" href="/personal/basket.php">В корзине</a>
-								                                            </form>
-								                                        </noindex>
-								                                    </div>
-																	<div class="favorite favorite-heart" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/"></div>
-								                                </div>
-								                            </div>
-								                        </div>
-								                    </div>
-												</div><!--end owl-item-->
-
-											<div class="owl-item">
-													<div class="item js-element js-elementid554" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/">
-														<div class="in">
-						                                    <div class="pic">
-																<a href="/catalog/ryba/raki/raki_razmer_40_60/"><img id="imgItem554" src="//opt-919637.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/da8/300_300_140cd750bba9870f18aada2478b24840a/da88a238b0a6afc04dfaa6bfd4fd8b36.jpg?148066562824069" alt="Раки размер 40/60"></a>
-						                                    </div>
-			                                                <div class="data">
-			                                                    <div class="name"><a class="aprimary" href="/catalog/ryba/raki/raki_razmer_40_60/">Раки размер 40/60</a><br></div>
-						                                        <div class="row buy">
-								                                    <div class="col col-xs-6 prices"><div class="price cool">1 350 р./кг</div></div>
-						                                        </div>
-								                                <div class="row bot">
-								                                    <div class="col col-xs-6 text-right buybtn">
-								                                        <noindex>
-								                                            <form class="add2basketform js-buyform554 usequantity" name="add2basketform">
-																				<span class="quantity"><a class="minus js-minus"><i class="fa"></i></a>
-																					<input onkeyup="this.value = this.value.replace(/[^\d,.]*/g, '').replace(/,/g, '.').replace(/^[^\d]*(\d+([.,]\d{0,5})?).*$/g, '$1');" type="text" class="js-quantity text-center" name="quantity" value="1" data-ratio="1"><a class="plus js-plus"><i class="fa"></i></a><span class="js-measurename">кг</span>
-																				</span>
-																				<input type="hidden" name="action" value="ADD2BASKET">
-								                                                <input type="hidden" name="id" class="js-add2basketpid" value="554">
-								                                                <button type="submit" rel="nofollow" class="btn btn-primary submit js-add2basketlink" value=""></button>
-								                                                <a class="btn btn-primary inbasket" href="/personal/basket.php">В корзине</a>
-								                                            </form>
-								                                        </noindex>
-								                                    </div>
-																	<div class="favorite favorite-heart" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/"></div>
-								                                </div>
-								                            </div>
-								                        </div>
-								                    </div>
-												</div><!--end owl-item-->
-											<div class="owl-item">
-													<div class="item js-element js-elementid554" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/">
-														<div class="in">
-						                                    <div class="pic">
-																<a href="/catalog/ryba/raki/raki_razmer_40_60/"><img id="imgItem554" src="//opt-919637.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/da8/300_300_140cd750bba9870f18aada2478b24840a/da88a238b0a6afc04dfaa6bfd4fd8b36.jpg?148066562824069" alt="Раки размер 40/60"></a>
-						                                    </div>
-			                                                <div class="data">
-			                                                    <div class="name"><a class="aprimary" href="/catalog/ryba/raki/raki_razmer_40_60/">Раки размер 40/60</a><br></div>
-						                                        <div class="row buy">
-								                                    <div class="col col-xs-6 prices"><div class="price cool">1 350 р./кг</div></div>
-						                                        </div>
-								                                <div class="row bot">
-								                                    <div class="col col-xs-6 text-right buybtn">
-								                                        <noindex>
-								                                            <form class="add2basketform js-buyform554 usequantity" name="add2basketform">
-																				<span class="quantity"><a class="minus js-minus"><i class="fa"></i></a>
-																					<input onkeyup="this.value = this.value.replace(/[^\d,.]*/g, '').replace(/,/g, '.').replace(/^[^\d]*(\d+([.,]\d{0,5})?).*$/g, '$1');" type="text" class="js-quantity text-center" name="quantity" value="1" data-ratio="1"><a class="plus js-plus"><i class="fa"></i></a><span class="js-measurename">кг</span>
-																				</span>
-																				<input type="hidden" name="action" value="ADD2BASKET">
-								                                                <input type="hidden" name="id" class="js-add2basketpid" value="554">
-								                                                <button type="submit" rel="nofollow" class="btn btn-primary submit js-add2basketlink" value=""></button>
-								                                                <a class="btn btn-primary inbasket" href="/personal/basket.php">В корзине</a>
-								                                            </form>
-								                                        </noindex>
-								                                    </div>
-																	<div class="favorite favorite-heart" data-elementid="554" data-detailpageurl="/catalog/ryba/raki/raki_razmer_40_60/"></div>
-								                                </div>
-								                            </div>
-								                        </div>
-								                    </div>
-												</div><!--end owl-item-->
-										</div>
-			                        <div class="owl-nav"><div class="prev"><span></span></div><div class="next"><span></span></div></div>
-			                        <div class="owl-dots">
-				                        <div class="owl-dot active"><span></span></div>
-				                        <div class="owl-dot"><span></span></div>
-				                        <div class="owl-dot"><span></span></div>
-				                        <div class="owl-dot"><span></span></div>
-			                        </div>
-									</div>
-			                    </div><!--end products-->
-					        </div>
-		                </div>
-					</div><!--'end_frame_cache_Zz2YMH'-->
-
 
 				</div><!--maincontent-->
 
@@ -1631,5 +1391,15 @@
 <!--задний фон модального окна-->
 <div class="c-popup_bg"></div>
 <!--END new pop-up-->
+
+
+<!--search mobile-->
+<div id="sb-search" class="sb-search">
+    <form>
+        <input class="sb-search-input " onkeyup="buttonUp();" placeholder="Поиск. Введите название товара..." onblur="monkey();" type="search" value="" name="search" id="search">
+        <input class="sb-search-submit" type="submit"  value="">
+        <span class="sb-icon-search"><i class="fa fa-search"></i></span>
+    </form>
+</div>
 </body>
 </html>

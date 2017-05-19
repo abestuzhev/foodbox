@@ -44,7 +44,65 @@ $(document).ready(function(){
         }
     });
 
-    $(".products").owlCarousel();
+    $('.js-readmore').readMore({
+        readMoreLinkClass: "read-more__link",
+        readMoreText: "Подробнее",
+        readLessText: "Скрыть",
+        readMoreHeight: 96
+    });
+
+    /***************************************/
+    /***************************************/
+    /***************************************/
+    /*search button*/
+
+
+    function buttonUp(){
+        var valux = $('.sb-search-input').val();
+        valux = $.trim(valux).length;
+        if(valux !== 0){
+            $('.sb-search-submit').css('z-index','99999');
+        } else{
+            $('.sb-search-input').val('');
+            $('.sb-search-submit').css('z-index','-999');
+        }
+    }
+
+
+    var submitIcon = $('.sb-icon-search');
+    var submitInput = $('.sb-search-input');
+    var searchBox = $('.sb-search');
+    var isOpen = false;
+
+    $(document).mouseup(function(){
+        if(isOpen == true){
+            submitInput.val('');
+            $('.sb-search-submit').css('z-index','-999');
+            submitIcon.click();
+        }
+    });
+
+    submitIcon.mouseup(function(){
+        return false;
+    });
+
+    searchBox.mouseup(function(){
+        return false;
+    });
+
+    submitIcon.click(function(){
+        if(isOpen == false){
+            searchBox.addClass('sb-search-open');
+            isOpen = true;
+        } else {
+            searchBox.removeClass('sb-search-open');
+            isOpen = false;
+        }
+    });
+
+
+
+
 });
 
 

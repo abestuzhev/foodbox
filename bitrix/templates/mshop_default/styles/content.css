@@ -3983,7 +3983,7 @@ html body .js-detail .buybtn .inbasket:before{
     line-height: 100%;
 }
 .js-detail .previewtext {
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
     font-size: 15px;
     color: #7b7b7b;
 }
