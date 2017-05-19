@@ -207,6 +207,7 @@ header .logo {
     padding-top: 6px;
     float: left;
     width: 230px;
+    position: relative;
 }
 @media (min-width: 1200px) and (max-width: 1300px){
     header .logo {
@@ -228,7 +229,7 @@ header .topMenu {
         display: none !important;
     }
 }
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
     header .box {
         display: none !important;
     }
@@ -479,13 +480,16 @@ header .full-width-menu {
 
 /* line 384, ../sass/header.scss */
 header .navbar-default .navbar-toggle .icon-toggle {
-    position: absolute;
-    top: 11px;
-    right: 30px;
-    float: right;
+    /*position: absolute;*/
+    /*top: 11px;*/
+    /*right: 30px;*/
+    /*float: right;*/
     width: 25px;
     margin: 2px 0 7px;
     font-size: 19px;
+    position: relative;
+    top: 3px;
+    display: inline-block;
 }
 
 /* line 395, ../sass/header.scss */
@@ -522,7 +526,9 @@ header .navbar-default .navbar-toggle:focus {
 header .navbar-collapse {
     padding: 0;
     border-top: none;
-    position: relative;
+    position: relative !important;
+    top: 66px;
+    border-top: 1px solid #ed6e00 !important;
 }
 
 /*Navbar Menu*/
@@ -1590,13 +1596,13 @@ header .navbar-nav {
     }
     header .mega-menu .container .navbar-header{
         padding: 0 15px;
-        height: 81px;
+        /*height: 81px;*/
         position: relative;
     }
     header .mega-menu .container .navbar-header > .row{
         position: fixed;
         width: 100%;
-        padding-bottom: 15px;
+        /*padding-bottom: 15px;*/
         background-color: #FF9B3D;
         z-index: 5;
     }
@@ -1615,7 +1621,7 @@ header .navbar-nav {
     header .cart{
         display: block !important;
         float: right;
-        padding: 35px 10px 0 0;
+        padding: 26px 10px 0 0;
     }
     header .basketinhead:before {
         margin: 0;
@@ -1637,7 +1643,7 @@ header .navbar-nav {
     header .navbar-default .navbar-toggle {
         margin: 0 0 0;
         border: none;
-        border-top: 1px solid #ED6E00;
+        /*border-top: 1px solid #ED6E00;*/
         float: none;
     }
     header .mega-menu .navbar-responsive-collapse .container {
@@ -1684,17 +1690,16 @@ header .navbar-nav {
         font-size: 22px !important;
     }
 }
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
     .mobileAuth{
         display: none;
     }
 }
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
     .mobileAuth{
         background-color: #ff9b3d;
         border-bottom: 1px solid #ed6e00;
         display: block;
-        padding: 10px 0;
         text-align: center;
         position: fixed;
         width: 100%;
@@ -1705,6 +1710,7 @@ header .navbar-nav {
         display: block;
         text-decoration: none;
         position: relative;
+        padding: 10px 20px;
     }
     .mobileAuth #ddPersonalMenu:before{
         content:"\f023";

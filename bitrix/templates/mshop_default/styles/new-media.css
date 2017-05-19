@@ -1,0 +1,73 @@
+@media screen and (min-width: 1200px){
+    header .favandbasket {
+         width: auto;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    header .auth {
+        width: auto;
+        padding: 0 12px;
+    }
+}
+
+@media screen and (min-width: 1023px){
+    header .logo {
+        padding: 6px 6px 0;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    header .buttons {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1023px){
+
+    header .logo {
+        padding: 5px 16px;
+    }
+    header .logo::after {
+        content: '';
+        border-right: 1px solid #ed6e00;
+        display: block;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    header .navbar-header {
+        background-color: #ed6e00;
+    }
+
+    header .topMenu {
+        display: none;
+    }
+
+    .header .auth::before {
+        content: '';
+        border-right-color: #ed6e00;
+        top: 0;
+        height: 100%;
+    }
+
+    header .box::after {
+        content: '';
+        border-right: 1px solid #ed6e00;
+        display: block;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+/*
+правки в header.css
+new-main.css
+style.css
+*/
+/*переместил из header.css*/

@@ -43,6 +43,8 @@ $(document).ready(function(){
             $(".c-popup_entity .c-form_button").attr('disabled', 'disabled');
         }
     });
+
+    $(".products").owlCarousel();
 });
 
 

@@ -8195,7 +8195,7 @@ html span.starrequired, html span.required {
 .contactsResponsive {
     display: none;
 }
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
     .contactsResponsive {
         display: block;
         margin: 0 auto !important;

@@ -11,6 +11,14 @@ header .auth {
     width: 272px;
 }
 
+header .box {
+    position: relative;
+}
+
+.contacts_title {
+    font-size: 14px;
+}
+
 #ddEntry::before {
     content: "";
     position: absolute;
