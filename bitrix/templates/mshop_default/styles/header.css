@@ -450,26 +450,31 @@ header .navbar-brand {
 }
 /*Navbar Toggle*/
 /* line 361, ../sass/header.scss */
-header .navbar-default .navbar-toggle {
+.navbar-toggle {
     position: relative;
     width: 100%;
     line-height: 24px;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     margin-bottom: 0;
-    border-color: #ebebeb;
+    /*border-color: #ebebeb;*/
     overflow: hidden;
+        color: #fff;
+        background-color: #FF9B3D;
 }
 
 /* line 370, ../sass/header.scss */
-header.color .navbar-default .navbar-toggle {
-    color: #fff;
-    background-color: #FF9B3D;
-}
+/*.navbar-toggle {
+}*/
+
+/*.mobileAuth_item .navbar-toggle {
+  padding-left: 0;
+  padding-right: 0;
+}*/
 
 /* line 374, ../sass/header.scss */
-header.color .navbar-default .navbar-toggle:hover {
+/*header.color .navbar-default .navbar-toggle:hover {
     background-color: #FFAD60;
-}
+}*/
 
 /* line 378, ../sass/header.scss */
 header .full-width-menu {
@@ -479,7 +484,7 @@ header .full-width-menu {
 }
 
 /* line 384, ../sass/header.scss */
-header .navbar-default .navbar-toggle .icon-toggle {
+.navbar-toggle .icon-toggle {
     /*position: absolute;*/
     /*top: 11px;*/
     /*right: 30px;*/
@@ -493,19 +498,19 @@ header .navbar-default .navbar-toggle .icon-toggle {
 }
 
 /* line 395, ../sass/header.scss */
-header.color .navbar-default .navbar-toggle .icon-toggle .icon-bar {
+.navbar-toggle .icon-toggle .icon-bar {
     background-color: #fff;
 }
 
 /* line 400, ../sass/header.scss */
-header .navbar-default .navbar-toggle .icon-toggle:last-child {
+.navbar-toggle .icon-toggle:last-child {
     margin-bottom: 0;
 }
 
 /* line 404, ../sass/header.scss */
-header .navbar-toggle,
-header .navbar-default .navbar-toggle:hover,
-header .navbar-default .navbar-toggle:focus {
+.navbar-toggle,
+.navbar-toggle:hover,
+.navbar-toggle:focus {
     padding: 8px 25px;
 }
 
@@ -527,7 +532,7 @@ header .navbar-collapse {
     padding: 0;
     border-top: none;
     position: relative !important;
-    top: 66px;
+    top: 72px;
     border-top: 1px solid #ed6e00 !important;
 }
 
@@ -1640,7 +1645,7 @@ header .navbar-nav {
     header .col.destroypadding {
         padding: 0;
     }
-    header .navbar-default .navbar-toggle {
+    header .navbar-toggle {
         margin: 0 0 0;
         border: none;
         /*border-top: 1px solid #ED6E00;*/

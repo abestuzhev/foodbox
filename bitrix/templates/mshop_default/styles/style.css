@@ -4350,8 +4350,8 @@ tbody.collapse.in {
 /* line 194, ../sass/bootstrap/_navbar.scss */
 .navbar-toggle {
     position: relative;
-    float: right;
-    margin-right: 15px;
+    /*float: right;*/
+    /*margin-right: 15px;*/
     padding: 9px 10px;
     margin-top: 0.5px;
     margin-bottom: 0.5px;
@@ -8199,7 +8199,7 @@ html span.starrequired, html span.required {
     .contactsResponsive {
         display: block;
         margin: 0 auto !important;
-        padding: 25px 8px 0 !important;
+        padding: 6px 8px 6px;
         width: 46% !important;
         float: none !important;
     }
@@ -8215,10 +8215,20 @@ html span.starrequired, html span.required {
         float: left !important;
     }
     header .contactsResponsive{
-        font-size: 14px !important;
+        font-size: 12px !important;
+        padding: 10px 12px 6px !important;
     }
+
+    header .contactsResponsive span,
+    .contactsResponsive .contacts_title {
+      font-size: 12px !important;
+    }
+
     header .contacts b, header .contacts strong {
-        font-size: 16px !important;
+        font-size: 13px !important;
+    }
+    header .logo img {
+        width: 76px;
     }
 }
 

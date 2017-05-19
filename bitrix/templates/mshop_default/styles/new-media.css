@@ -27,7 +27,7 @@
 @media screen and (max-width: 1023px){
 
     header .logo {
-        padding: 5px 16px;
+        padding: 7px 16px;
     }
     header .logo::after {
         content: '';
@@ -64,6 +64,45 @@
         top: 0;
     }
 }
+
+
+@media screen and (max-width: 767px){
+
+    header .contactsResponsive {
+      position: relative;
+    }
+    header .contactsResponsive::after {
+        content: '';
+        border-right: 1px solid #ed6e00;
+        display: block;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 479px){
+  .authinhead  a {
+    padding: 0;
+    padding-right: 6px;
+  }
+  .authinhead  a:last-child {
+    padding: 0;
+  }
+  .authinhead {
+    padding: 10px;
+  }
+
+  .navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus {
+    padding: 8px 20px
+  }
+
+}
+
+
 
 /*
 правки в header.css

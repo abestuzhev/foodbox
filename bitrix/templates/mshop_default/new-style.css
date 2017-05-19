@@ -2,9 +2,42 @@
 #ddEntry {
     display: inline-block;
     line-height: 21px;
-    margin-left: 17px;
     padding-left: 25px;
     position: relative;
+}
+
+.mobileAuth_item #ddEntry {
+  padding: 0;
+}
+
+.mobileAuth {
+  font-size: 0;
+  text-align: justify;
+}
+
+.mobileAuth::after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+.mobileAuth_item {
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  border-right: 1px solid #ed6e00;
+}
+
+.mobileAuth_item:nth-child(1) {
+  width: 53%;
+}
+
+.mobileAuth_item:nth-child(2) {
+  width: 47%;
+}
+
+.mobileAuth_item:last-child {
+  border: none;
 }
 
 header .auth {
