@@ -938,10 +938,11 @@ function deleteCookie(name) {
 $(document).ready(function () {
     $('.bx_catalog_top_home').bxSlider({
         slideWidth: 235,
-        minSlides: 1,
+        minSlides: 2,
         maxSlides: 6,
-        slideMargin: 1,
-        pager: false
+        // slideMargin: 1,
+        pager: false,
+        slideMargin: 1
     });
 });
 
