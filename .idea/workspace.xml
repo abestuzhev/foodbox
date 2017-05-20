@@ -21,11 +21,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.54817474">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="513">
-                  <caret line="2287" column="6" lean-forward="false" selection-start-line="2287" selection-start-column="6" selection-end-line="2287" selection-end-column="6" />
+                <state relative-caret-position="666">
+                  <caret line="2285" column="0" lean-forward="true" selection-start-line="2285" selection-start-column="0" selection-end-line="2285" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -34,8 +34,8 @@
           <file leaf-file-name="card.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/card.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="464">
-                  <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="82" />
+                <state relative-caret-position="599">
+                  <caret line="1395" column="0" lean-forward="false" selection-start-line="1395" selection-start-column="0" selection-end-line="1403" selection-end-column="24" />
                   <folding>
                     <element signature="e#8672#8678#0" expanded="true" />
                     <element signature="e#37880#37886#0" expanded="true" />
@@ -57,7 +57,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="318">
@@ -136,11 +136,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="new-media.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="new-media.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/styles/new-media.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-83">
-                  <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+                <state relative-caret-position="368">
+                  <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -156,10 +156,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="new-style.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="new-style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="611">
+                <state relative-caret-position="934">
                   <caret line="991" column="0" lean-forward="true" selection-start-line="991" selection-start-column="0" selection-end-line="991" selection-end-column="0" />
                   <folding />
                 </state>
@@ -206,9 +206,9 @@
       <find>owl</find>
       <find>Персональные рекомендации</find>
       <find>фисташки</find>
-      <find>Описание</find>
-      <find>BackToTop</find>
       <find>bxSlider</find>
+      <find>BackToTop</find>
+      <find>Описание</find>
     </findStrings>
     <replaceStrings>
       <replace>c-form</replace>
@@ -265,12 +265,12 @@
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/styles/header.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/styles/style.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/styles/content.css" />
-        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/card.html" />
-        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/styles/new-media.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js" />
-        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/js/script.js" />
+        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/card.html" />
+        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" />
+        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/styles/new-media.css" />
       </list>
     </option>
   </component>
@@ -522,7 +522,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120725000" />
+    <option name="totallyTimeSpent" value="120879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -888,28 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="82" />
-          <folding>
-            <element signature="e#8672#8678#0" expanded="true" />
-            <element signature="e#37880#37886#0" expanded="true" />
-            <element signature="e#37886#37892#0" expanded="true" />
-            <element signature="e#38339#38345#0" expanded="true" />
-            <element signature="e#38345#38351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/styles/new-media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="818">
@@ -922,16 +900,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
+        <state relative-caret-position="934">
           <caret line="991" column="0" lean-forward="true" selection-start-line="991" selection-start-column="0" selection-end-line="991" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="2287" column="6" lean-forward="false" selection-start-line="2287" selection-start-column="6" selection-end-line="2287" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -943,6 +913,36 @@
           <folding>
             <marker date="1495268341094" expanded="true" signature="20795:20838" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="1395" column="0" lean-forward="false" selection-start-line="1395" selection-start-column="0" selection-end-line="1403" selection-end-column="24" />
+          <folding>
+            <element signature="e#8672#8678#0" expanded="true" />
+            <element signature="e#37880#37886#0" expanded="true" />
+            <element signature="e#37886#37892#0" expanded="true" />
+            <element signature="e#38339#38345#0" expanded="true" />
+            <element signature="e#38345#38351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="2285" column="0" lean-forward="true" selection-start-line="2285" selection-start-column="0" selection-end-line="2285" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/styles/new-media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
