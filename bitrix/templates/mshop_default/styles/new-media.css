@@ -81,7 +81,8 @@
         top: 0;
     }
     .searchResponsive,
-    .backLink {
+    .backLink,
+    .bx-searchtitle {
         display: none !important;
     }
     .sb-search {
