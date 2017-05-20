@@ -66,6 +66,7 @@
 	<!--end new-style-->
 
 	<!--new script-->
+	<script type="text/javascript" src="js/readmore.js/read-more.min.js"></script>
 	<script type="text/javascript" src="js/avatar.js"></script>
 	<script type="text/javascript" src="js/new-script.js"></script>
 	<!--end new-script-->
@@ -576,7 +577,8 @@
 										</div>
 										<div class="c-form_item">
 											<label for="profile_newPass">Дополнительный номер:</label>
-											<div class="l-form_button"><button class="c-form_button">Добавить</button></div>
+											<div class="l-form_button"><a class="c-form_button js-add-additional_phone">Добавить</a></div>
+											<input style="display: none;" type="text" id="additional_phone" placeholder="Тел: +7(___)___-__-__" class="phone-mask">
 										</div>
 										<div class="c-form_item">
 											<label for="profile_email">Электронная почта:</label>
@@ -611,6 +613,19 @@
 								</div>
 							</div>
 						</div>
+					<hr>
+					<div class="l-form_button btn-right"><button class="c-form_button">Сохранить изменения</button></div>
+
+					<div class="social-profile">
+						<div class="social-profile_title">Авторизация через социальные сети</div>
+						<div class="social-profile_text">Подключите свой профиль в социальной сети, чтобы авторизоваться без ввода пароля в дальнейшем.</div>
+						<div class="social_icons">
+							<a target="_blank" href="https://www.facebook.com/%D0%9E%D0%9E%D0%9E-%D0%A4%D1%83%D0%B4%D0%B1%D0%BE%D0%BA%D1%81-1053551841409908/"><img src="include/footer/images/icon_03.jpg"></a>
+							<a target="_blank" href="https://ok.ru/group/54245583683822"><img src="include/footer/images/icon_11.jpg"></a>
+							<a target="_blank" href="https://vk.com/foodboxru"><img src="include/footer/images/icon_09.jpg"></a>
+
+						</div>
+					</div>
 					</div><!--END profile-->
 
 				</div>

@@ -18,15 +18,27 @@
     <favorites_list name="foodbox" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.54817474">
+    <splitter split-orientation="horizontal" split-proportion="0.64885956">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="666">
-                  <caret line="2285" column="0" lean-forward="true" selection-start-line="2285" selection-start-column="0" selection-end-line="2285" selection-end-column="0" />
+                <state relative-caret-position="340">
+                  <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="53" selection-end-column="25" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/profile.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="314">
+                  <caret line="620" column="55" lean-forward="false" selection-start-line="620" selection-start-column="55" selection-end-line="620" selection-end-column="55" />
+                  <folding>
+                    <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -82,10 +94,10 @@
           <file leaf-file-name="new-script.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="818">
-                  <caret line="122" column="7" lean-forward="false" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
+                <state relative-caret-position="474">
+                  <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
                   <folding>
-                    <marker date="1495266223900" expanded="true" signature="28:858" ph="{...}" />
+                    <marker date="1495269143242" expanded="true" signature="28:858" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -136,7 +148,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="new-media.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="new-media.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/styles/new-media.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="368">
@@ -156,11 +168,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="new-style.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="new-style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="934">
-                  <caret line="991" column="0" lean-forward="true" selection-start-line="991" selection-start-column="0" selection-end-line="991" selection-end-column="0" />
+                <state relative-caret-position="570">
+                  <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -179,7 +191,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>productSwiper</find>
       <find>.promo-block-special-menus-ctn</find>
       <find>.swiper-button-next--new-product, .swiper-container--good-of-day</find>
       <find>.specialMenus a.actionsLink</find>
@@ -207,8 +218,9 @@
       <find>Персональные рекомендации</find>
       <find>фисташки</find>
       <find>bxSlider</find>
-      <find>BackToTop</find>
+      <find>Добавить</find>
       <find>Описание</find>
+      <find>BackToTop</find>
     </findStrings>
     <replaceStrings>
       <replace>c-form</replace>
@@ -254,7 +266,6 @@
         <option value="$PROJECT_DIR$/bitrix/templates/popup-entity.html" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/popup-entity.html" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/question.html" />
-        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/profile.html" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/reg-user.html" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/minified.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/components/bitrix/slider/del.html" />
@@ -265,12 +276,13 @@
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/styles/header.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/styles/style.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/styles/content.css" />
-        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js" />
-        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/js/script.js" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/card.html" />
-        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" />
         <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/styles/new-media.css" />
+        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js" />
+        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/home.html" />
+        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/profile.html" />
+        <option value="$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css" />
       </list>
     </option>
   </component>
@@ -335,32 +347,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mshop_default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foodbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="foodbox" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitrix" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mshop_default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,13 +508,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120879000" />
+    <option name="totallyTimeSpent" value="122689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.078831315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08158765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -795,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="545" column="48" lean-forward="false" selection-start-line="545" selection-start-column="48" selection-end-line="545" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/reg-user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -888,24 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="122" column="7" lean-forward="false" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
-          <folding>
-            <marker date="1495266223900" expanded="true" signature="28:858" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="991" column="0" lean-forward="true" selection-start-line="991" selection-start-column="0" selection-end-line="991" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -913,6 +874,14 @@
           <folding>
             <marker date="1495268341094" expanded="true" signature="20795:20838" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/styles/new-media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -930,18 +899,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/js/new-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding>
+            <marker date="1495269143242" expanded="true" signature="28:858" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="2285" column="0" lean-forward="true" selection-start-line="2285" selection-start-column="0" selection-end-line="2285" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="53" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/styles/new-media.css">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        <state relative-caret-position="314">
+          <caret line="620" column="55" lean-forward="false" selection-start-line="620" selection-start-column="55" selection-end-line="620" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/mshop_default/new-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
           <folding />
         </state>
       </provider>

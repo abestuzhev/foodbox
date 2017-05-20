@@ -51,6 +51,13 @@ $(document).ready(function(){
         readMoreHeight: 96
     });
 
+    //в фауле profile.html добавление дополнительнгго поля для телефона
+    $('.js-add-additional_phone').on("click", function(e){
+        e.preventDefault();
+        $(this).hide();
+        $('#additional_phone').show();
+    })
+
     /***************************************/
     /***************************************/
     /***************************************/
