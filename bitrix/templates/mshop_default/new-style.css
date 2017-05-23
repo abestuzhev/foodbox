@@ -91,12 +91,49 @@ header .box {
 pop-up
 **********************************/
 
+/*24.05.2017*/
+.c-popup_container {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.c-popup_container-2 {
+  height: 100%;
+    margin: 0 auto;
+}
+
+.c-popup_container-3 {
+    padding: 24px;
+    margin: 0;
+    border: 0;
+    vertical-align: middle;
+}
+
+.c-popup {
+    position: relative;
+    width: 412px;
+    background-color: #FFF;
+    box-sizing: border-box;
+    line-height: 1;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+/*
 .c-popup {
     position: absolute;
     z-index: 9999;
     top: 50%;
     left: 50%;
-    /*margin-left: -206px;*/
+    //margin-left: -206px;
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
@@ -114,6 +151,7 @@ pop-up
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
 }
+*/
 
 .c-popup_bg {
     position: fixed;
@@ -811,7 +849,7 @@ history
     }
 }
 
-@media screen and (max-height: 855px){
+/*@media screen and (max-height: 855px){
   .c-popup {
       position: fixed;
       top: 0;
@@ -822,7 +860,7 @@ history
       transform: none;
       overflow-y: scroll;
   }
-}
+}*/
 
 
 @media (max-width: 760px) {
