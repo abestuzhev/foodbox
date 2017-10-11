@@ -1,0 +1,91 @@
+/* добавляем ее в media выражение */
+@media screen and (max-width: 768px) {
+    .panel-basket .col-xs-12 .text-right {
+        text-align: center !important;
+    }
+}
+
+.marketing .current_price {
+    color: #e7592b;
+}
+
+.marketing b {
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+}
+
+.marketing span.price{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.marketing span.price.discount_price{
+    font-size: 20px;
+    color:#e7592b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.marketing-text {
+    color:#5a5a5a;
+    position: relative;
+    margin-left: 52px;
+    display: inline-block;
+}
+.marketing-text:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(m_ico.png) no-repeat;
+    position: absolute;
+    left: -35px;
+    top: 11px;
+}
+.marketing-text b {
+    font-size: 20px;
+    color:#e7592b;
+}
+.marketing-text.mobile b {
+    display: inline-block !important;
+}
+.marketing-text.mobile td:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(m_ico.png) no-repeat;
+    position: absolute;
+    left: -35px;
+    top: 11px;
+}
+.marketing-text.mobile td {
+    position: relative;
+    border-top: none !important;
+}
+@media screen and (max-width: 1024px) {
+    .marketing-text {
+        display: none;
+    }
+    .marketing-text.mobile {
+        display: table-row;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .marketing-text.mobile.trBody {
+        display: none;
+    }
+}
+
+
+.col_QUANTITY, .col_PRICE, .col_SUM {
+    text-align: center !important;
+}
+#coupons_block {
+    margin-left: 17px;
+}
+@media (min-width: 992px) {
+    #coupons_block {
+        margin-left: 41px;
+    }
+}

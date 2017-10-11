@@ -1,0 +1,12 @@
+@media (max-width: 415px) {
+	.personalOrderList > .col-md-12{
+		padding: 0;
+	}
+	.buttonPersonalOrderList .btn{
+		display: block;
+		margin-top: 10px;
+	}
+	.buttonPersonalOrderList .btn:first-child{
+		margin-top: 0;
+	}
+}

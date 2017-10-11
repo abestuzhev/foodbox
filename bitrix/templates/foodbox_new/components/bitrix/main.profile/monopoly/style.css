@@ -1,0 +1,39 @@
+.no-thanks {
+    text-decoration: none !important;
+    border-bottom: 1px dashed #777;
+}
+
+#send-phone-code {
+    display: none;
+}
+.another-phone {
+    color: #f36f3c !important;
+    text-decoration: none !important;
+    border-bottom: 1px dashed #f36f3c;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+}
+
+.messages_alert {
+    position: relative;
+    background: #ffc;
+    border: 1px solid #faf2ac;
+    padding: 10px 20px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.c-popup_body-title.personal {
+    margin-bottom: 10px;
+}
+.c-popup.change_phone {
+    width: 84%;
+}
+@media (max-width: 760px) {
+    .c-popup.change_phone {
+        width: 100%;
+    }
+}

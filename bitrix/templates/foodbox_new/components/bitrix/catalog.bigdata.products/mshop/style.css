@@ -1,0 +1,6 @@
+.bigdata_recommended_products_container .js-element .add2basketform .quantity, .sale-recommended .js-element .add2basketform .quantity {
+    display: block !important;
+}
+.bigdata_recommended_products_container .products .item .price.cool {
+    text-align: center;
+}

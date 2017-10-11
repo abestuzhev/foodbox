@@ -1,0 +1,14 @@
+/*#sidebar{
+	left: auto;
+    right: auto;
+    width: 20%;
+}
+.col-md-9.maincontent{
+	float: right;
+    left: auto;
+    right: auto;
+    width: 80%;
+}*/
+.myContent.notmain > .container{
+	padding-bottom: 400px;
+}

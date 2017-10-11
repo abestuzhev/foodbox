@@ -1,0 +1,190 @@
+@media screen and (min-width: 1200px){
+    header .favandbasket {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    header .auth {
+        width: auto;
+        padding: 0 12px;
+    }
+}
+
+@media screen and (min-width: 1023px){
+    header .logo {
+        padding: 6px 6px 0;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    header .buttons {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1023px){
+
+    header .logo {
+        padding: 7px 16px;
+    }
+    header .logo::after {
+        content: '';
+        border-right: 1px solid #ed6e00;
+        display: block;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    header .navbar-header {
+        background-color: #ed6e00;
+    }
+
+    header .topMenu {
+        display: none;
+    }
+
+    .header .auth::before {
+        content: '';
+        border-right-color: #ed6e00;
+        top: 0;
+        height: 100%;
+    }
+
+    header .box::after {
+        content: '';
+        border-right: 1px solid #ed6e00;
+        display: block;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+
+    header .contactsResponsive {
+        position: relative;
+    }
+    header .contactsResponsive::after {
+        content: '';
+        border-right: 1px solid #ed6e00;
+        display: block;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .searchResponsive,
+    .backLink {
+        display: none !important;
+    }
+    .sb-search {
+        display: block;
+    }
+
+    .js-detail {
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 520px){
+    h2.coolHeading, .h2.coolHeading {
+        font-size: 22px;
+    }
+
+    .js-detail .previewtext,
+    .js-element .textSkvozniy {
+        font-size: 13px;
+        color: #7b7b7b;
+    }
+    .js-detail .previewtext .title,
+    .js-detail .proptable .prop_title,
+    .js-detail .textSkvozniy .title {
+        font-size: 17px;
+        font-weight: 700;
+        color: #404040;
+        font-family: "Helvetica", Arial, sans-serif;
+    }
+
+    html .page-header h1 {
+        font-size: 25px;
+    }
+}
+
+
+
+@media screen and (max-width: 479px){
+    .authinhead  a {
+        padding: 0;
+        padding-right: 6px;
+    }
+    .authinhead  a:last-child {
+        padding: 0;
+    }
+    .authinhead {
+        padding: 10px;
+    }
+
+    .navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus {
+        padding: 8px 20px
+    }
+
+    h2.coolHeading, .h2.coolHeading {
+        font-size: 17px;
+    }
+
+}
+@media screen and (max-width: 460px){
+    .products.showcase .owl-nav {
+        top: 16% !important;
+        right: auto;
+        width: 100%;
+    }
+
+    .products.showcase .owl-nav .prev {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .products.showcase .owl-nav .next {
+        position: absolute;
+        left: 92%;
+    }
+
+    .section-cart .owl-nav {
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 320px){ 
+    .bx-wrapper .add2basketform .quantity span {
+        visibility: hidden;
+    }
+
+    #day .price span:nth-child(2) {
+        font-size: 27px;
+    }
+
+    .seoText .bx_catalog_top_home .bx_catalog_item {
+        margin-bottom: 0 !important;
+    }
+}
+@media screen and (max-width: 1024px){ 
+    .BackToTop {
+        bottom: 90px !important;
+    }
+}
+/*
+правки в header.css
+new-main.css
+style.css
+*/
+/*переместил из header.css*/

@@ -1,0 +1,83 @@
+/* #ajax-list-search-results {
+    float: left;
+    width: 79%;
+} */
+.searchResponsive{
+	display: none;
+}
+.search-content .goods-box {
+	background: url(images/stiker4.png) no-repeat 0 0;
+    width: 250px;
+	float: left;
+	padding-top: 38px;
+	position: relative;
+	min-height: 369px;
+	margin-right: 20px;
+	color: #fff;
+}
+.search-content .goods-box .goods-header {
+    padding: 0 15px;
+}
+.search-content .goods-box .goods-header .heading {
+    float: left;
+	color: #fff;
+	margin-top: 15px;
+	font-size: 22px;
+}
+.search-content .goods-box .goods-header .btn-container {
+    float: right;
+}
+.search-content .goods-box .goods-header .btn-container .btn-reset {
+    border: none;
+	color: #fff;
+	cursor: pointer;
+	font: inherit;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-top: 21px;
+	font-size: 13px;
+	padding: 0 15px 8px 0 !important;
+	outline: none;
+	box-shadow: none;
+	background-color: #b8d906;
+	line-height: 19px;
+	position: relative;
+}
+.search-content .goods-box .goods-header .btn-container .btn-reset:before{
+	content: "x";
+	display: block;
+	font-size: 18px;
+	position: absolute;
+	right: 0;
+	top: 0px;
+}
+.search-content .goods-box .goods-list {
+    padding: 0 15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.search-content .goods-box .goods-list li {
+    height: 34px;
+    border-bottom: 1px solid #EBEBEB;
+	list-style: none;
+}
+.search-content .goods-box .goods-list li:before{
+	display: none;
+}
+.search-content .goods-box .goods-list li input {
+    height: 34px;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 34px;
+    font-size: 17px;
+    color: #fff;
+    box-shadow: none;
+}
+.search-content .goods-box .btn-wide {
+    margin-left: 15px;
+}
+.bx-wrapper{
+	margin: 0 0 20px 0 !important;
+}

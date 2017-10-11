@@ -1,0 +1,35 @@
+.catalogHeaderCategories{
+	margin-bottom: 20px;
+}
+.catalogHeaderCategories a.name {
+    margin: 0 5px 8px;
+    min-width: 40px;
+    padding: 8px 10px;
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid #d0d0d0;
+    color: #000;
+    font-size: 13px !important;
+    font-weight: 400;
+    text-transform: none;
+	
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 1;
+    min-width: 80px;
+    overflow: visible;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.15s ease 0s;
+}
+.catalogHeaderCategories a.name.active{
+	background-color: #f36f3c;
+	color: #ffffff;
+	border: 1px solid #f36f3c;
+}
+
+@media (max-width: 500px) {
+	.catalogHeaderCategories{
+		display: none;
+	}
+}

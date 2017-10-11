@@ -1,0 +1,21 @@
+.recepty-list {position:relative;}
+.recepty_title
+{
+	position:relative;
+	bottom: 40px;
+	height:40px;
+	text-align:center;
+	background-color: rgba(50, 50, 50, 0.7);
+	border-radius: 0px 0px 8px 8px ;
+}
+.recepty_title a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+.recepty_title a:hover
+{
+	color:#fff;
+	text-decoration:underline;
+}

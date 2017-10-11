@@ -1,0 +1,6 @@
+.searchResponsive{
+	margin-bottom: 30px;
+}
+.searchResponsive, .basket_table .hiddenAjaxColResponsive{
+	display: block !important;
+}

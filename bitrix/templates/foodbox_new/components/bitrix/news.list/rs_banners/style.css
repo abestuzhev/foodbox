@@ -1,0 +1,118 @@
+.rs-banners-container {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 3px 6px 2px #e8e8e8;
+}
+
+.rs-banners {
+  display: none;
+  overflow: hidden; }
+  .rs-banners_wrap {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto; }
+  .rs-banners_wrap .textPl,
+  .rs-banners_wrap .imagePl{
+	  float: left;
+	  width: 50%;
+	  position: relative;
+  }
+  .rs-banners_wrap .imagePl{
+	  background-repeat: no-repeat;
+	  background-position: center center;
+  }
+  .rs-banners_wrap .imagePl a{
+	  display: block;
+		height: 100%;
+		width: 100%;
+  }
+  .rs-banners_wrap .textPl{
+	  padding-top: 85px;
+  }
+  .rs-banners_wrap .rs-banners_name{
+	  font-size: 40px;
+	  color: #555554;
+	  line-height: 100%;
+	  font-weight: 700;
+	  text-transform: uppercase;
+  }
+  .rs-banners_wrap .rs-banners_text{
+	  font-size: 27px;
+	  color: #555554;
+	  line-height: 100%;
+	  text-transform: uppercase;
+  }
+  .rs-banners_wrap .rs-banners_link{
+	  margin-top: 25px;
+  }
+  .rs-banners-container .rs-banners.owl-theme.owl-carousel .owl-item img{
+	  position: static !important;
+  }
+  .rs-banners-container .owl-theme .owl-dots .owl-dot.active span, .rs-banners-container .owl-theme .owl-dots .owl-dot:hover span{
+	  background-color: #f36f3c !important;
+  }
+  .rs-banners-container.__wide .owl-theme .owl-nav {
+		bottom: auto;
+		height: 30px;
+		left: auto !important;
+		position: absolute !important;
+		right: 80px !important;
+		top: 48px;
+		width: 55px !important;
+	}
+  .rs-banners-container .owl-theme .owl-nav .owl-prev, 
+  .rs-banners-container .owl-theme .owl-nav .owl-next{
+	  opacity: 1 !important;
+	  background: none !important;
+	  padding: 0 !important;
+	  border-radius: 0 !important;
+	  width: 17px !important;
+	  height: 30px !important;
+	  background-image: url(/bitrix/templates/mshop_default/images/sprite.png) !important;
+	  background-position: 0 0 !important;
+	  background-repeat: no-repeat !important;
+	  left: 0 !important;
+  }
+  .rs-banners-container .owl-theme .owl-nav .owl-next{
+	  background-position: -27px 0 !important;
+	  right: 0 !important;
+	  left: auto !important;
+  }
+  .rs-banners-container .owl-theme .owl-nav .owl-prev:hover, 
+  .rs-banners-container .owl-theme .owl-nav .owl-next:hover{
+	  opacity: 0.7 !important;
+  }
+  .rs-banners-container .owl-theme .owl-nav .owl-prev:before, 
+  .rs-banners-container .owl-theme .owl-nav .owl-next:before{
+	  display: none !important;
+  }
+  .rs-banners-container .owl-theme .owl-nav .owl-prev{
+	  
+  }
+@media (min-width: 992px) {
+  .rs-banners_infowrap .rs-banners_info .rs-banners_desc {
+    display: inline-block; }
+  .rs-banners-container .rs-banners_bottom-line {
+    bottom: -2px; } }
+
+@media (max-width: 992px) {
+  .rs-banners_infowrap .rs-banners_info .rs-banners_title {
+    font-size: 4vw !important;
+    line-height: 6.2vw !important; }
+    .rs-banners_infowrap .rs-banners_info .rs-banners_title *, .rs-banners_infowrap .rs-banners_info .rs-banners_title span, .rs-banners_infowrap .rs-banners_info .rs-banners_title p {
+      font-size: 4vw !important;
+      line-height: 6.2vw !important; }
+  .rs-banners_infowrap .rs-banners_info .rs-banners_price {
+    font-size: 4vw !important;
+    line-height: 3vw; }
+    .rs-banners_infowrap .rs-banners_info .rs-banners_price *, .rs-banners_infowrap .rs-banners_info .rs-banners_price span, .rs-banners_infowrap .rs-banners_info .rs-banners_price p {
+      font-size: 4vw !important;
+      line-height: 3vw; }
+  .rs-banners_infowrap .rs-banners_info .rs-banners_desc {
+    font-size: 3vw !important; }
+    .rs-banners_infowrap .rs-banners_info .rs-banners_desc *, .rs-banners_infowrap .rs-banners_info .rs-banners_desc span, .rs-banners_infowrap .rs-banners_info .rs-banners_desc p {
+      font-size: 3vw !important; } }
