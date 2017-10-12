@@ -178,7 +178,7 @@ html body .js-element .buybtn .submit {
 
 @media (max-width: 1024px) {
     .products.showcase .item div.name:not(.bigdata):not(.recomend) {
-        min-height: 55px;
+        min-height: 30px;
     }
 }
 
@@ -224,4 +224,60 @@ html body .js-element .buybtn .submit {
     margin-top: -10px;
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .products.showcase .data .bot {
+        opacity: 1;
+        visibility: visible;
+    }
+    .products.showcase .item .in:hover .data .buybtn {
+        margin-top: 0;
+    }
+
+    .products.showcase .item {
+        height: auto !important;
+    }
+    .products .item .in {
+        border-color: #e5e5e5;
+    }
+
+    .products.showcase .item .name .previewtext + .article, .products.showcase .item .nalichei {
+        display: block;
+    }
+
+    .products.showcase .item .in:hover .nalichei {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .products.showcase .item .name {
+        white-space: normal;
+    }
+}
+
+
+
+@media (max-width: 320px){
+    .js-element .text-left.buybtn {
+         margin-left: 0;
+    }
+
+    html body .js-element .buybtn .submit, html body .js-element .buybtn .inbasket {
+        min-width: 100% !important;
+    }
+
+    .products.showcase .item {
+        padding: 0 5px;
+    }
+}
+
+#replace_show_mode {
+    margin-bottom: 60px;
+}
+
+.experiment .item .name a {
+    height: 63px !important;
+}
 
